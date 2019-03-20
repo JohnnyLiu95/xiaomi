@@ -1,0 +1,769 @@
+.common{
+	width: 1366px;
+	margin: 0 auto;
+}
+i{
+	font-style: normal;
+}
+#header-nav{
+	height: 52px;
+	border: 1px solid #e0e0e0;
+}
+#header-nav>span{
+	font-size: 12px;
+	margin-left: 184px;
+	color: #212121;
+	line-height: 52px;
+	border-right: 1px solid #822182;
+	height: 11px;
+	padding-right: 9px;
+}
+#header-nav>p{
+	display: inline-block;
+}
+#header-nav>p>a{
+	display: inline-block;
+	border-right: 1px solid #822182;
+	color: #616161;
+	padding: 0 7px;
+}
+#header-nav>p>a:hover{
+	color: #ff6700;
+}
+#header-nav>p>a:last-of-type{
+	border: 0;
+}
+#header-nav>ul{
+	float: right;
+	margin-right: 200px;
+}
+#header-nav>ul>li{
+	float: left;
+	line-height: 54px;
+}
+#header-nav>ul>li>a{
+	color: #616161;
+	padding:0 8px;
+	border-right: 2px solid #ebe4e0;
+}
+#header-nav>ul>input{
+	float: right;
+	width: 120px;
+	height: 30px;
+	background-color: #ff6700;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	margin-top: 10px;
+}
+#header-nav>ul>li:last-of-type>a{
+	border:0;
+}
+#header-nav>ul>li>a:hover{
+	color: #ff6700;
+}
+
+
+
+
+
+#header-nav-1{
+	display: none;
+	width: 1310px;
+	height: 63px;
+	margin: 0 auto;
+	border: 1px solid #e0e0e0;
+	position: fixed;
+	top:0;
+	left:50%;
+	transform:translateX(-50%);
+	background: #FFFFFF;
+	z-index: 99;
+	width: 1366px;
+	margin: 0 auto;
+}
+#header-nav-1>span{
+	font-size: 12px;
+	margin-left: 184px;
+	color: #212121;
+	line-height: 52px;
+	border-right: 1px solid #822182;
+	height: 11px;
+	padding-right: 9px;
+}
+#header-nav-1>p{
+	display: inline-block;
+}
+#header-nav-1>p>a{
+	display: inline-block;
+	border-right: 1px solid #822182;
+	color: #616161;
+	padding: 0 7px;
+}
+#header-nav-1>p>a:hover{
+	color: #ff6700;
+}
+#header-nav-1>p>a:last-of-type{
+	border: 0;
+}
+#header-nav-1>ul{
+	float: right;
+	margin-right: 200px;
+}
+#header-nav-1>ul>li{
+	float: left;
+	line-height: 54px;
+}
+#header-nav-1>ul>li>a{
+	color: #616161;
+	padding:0 8px;
+	border-right: 2px solid #ebe4e0;
+}
+#header-nav-1>ul>input{
+	float: right;
+	width: 120px;
+	height: 30px;
+	background-color: #ff6700;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	margin-top: 10px;
+}
+#header-nav-1>ul>li:last-of-type>a{
+	border:0;
+}
+#header-nav-1>ul>li>a:hover{
+	color: #ff6700;
+}
+#banner{
+	height: 667px;
+	background: url(../image/mitu&redminote7&mibracelet/index_intro.jpg);
+	background-size: 1366px;
+}
+#banner>.mipad-4{
+	float: left;
+	margin-left: 246px;
+	margin-top: 250px;
+}
+#banner>.mipad-4>h1{
+	font-size: 30px;
+	color: #FFFFFF;
+	
+}
+#banner>.mipad-4>h1>i{
+	color: #f02b29;
+}
+#banner>.mipad-4>span{
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 26px;
+}
+#banner>.mipad-4>h2{
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#banner>.mipad-4>h2>i{
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 27px;
+}
+#banner>.mipad-4plus{
+	float: left;
+	margin-left: 460px;
+	margin-top: 250px;
+}
+#banner>.mipad-4plus>h1{
+	font-size: 30px;
+	color: #FFFFFF;
+	
+}
+#banner>.mipad-4plus>h1>i{
+	color: #f02b29;
+}
+#banner>.mipad-4plus>span{
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 26px;
+}
+#banner>.mipad-4plus>h2{
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#banner>.mipad-4plus>h2>i{
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 27px;
+}
+#configuration{
+	height: 260px;
+}
+#configuration>.sec{
+	width: 737px;
+	height: 237px;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+#configuration>.sec>.sec1{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	border-right: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+#configuration>.sec>.sec1>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec1>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+
+
+
+#configuration>.sec>.sec2{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	border-right: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+#configuration>.sec>.sec2>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec2>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+
+
+
+#configuration>.sec>.sec3{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	border-right: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+#configuration>.sec>.sec3>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec3>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+
+
+
+#configuration>.sec>.sec4{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	/*border-right: 1px solid #e6e6e6;*/
+	border-bottom: 1px solid #e6e6e6;
+}
+#configuration>.sec>.sec4>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec4>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+
+
+#configuration>.sec>.sec5{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	border-right: 1px solid #e6e6e6;
+	/*border-bottom: 1px solid #e6e6e6;*/
+}
+#configuration>.sec>.sec5>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec5>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+
+
+
+#configuration>.sec>.sec6{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	border-right: 1px solid #e6e6e6;
+	/*border-bottom: 1px solid #e6e6e6;*/
+}
+#configuration>.sec>.sec6>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec6>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+
+
+#configuration>.sec>.sec7{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	border-right: 1px solid #e6e6e6;
+	/*border-bottom: 1px solid #e6e6e6;*/
+}
+#configuration>.sec>.sec7>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec7>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+
+
+#configuration>.sec>.sec8{
+	height: 109px;
+	width: 182px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	/*border-right: 1px solid #e6e6e6;*/
+	/*border-bottom: 1px solid #e6e6e6;*/
+}
+#configuration>.sec>.sec8>span{
+	margin-left: 50px;
+	margin-top: 40px;
+	display: inline-block;
+}
+#configuration>.sec>.sec8>i{
+	font-size: 12px;
+	color: #6d6d9a;
+	margin-left: 50px;
+}
+#cpu{
+	height: 630px;
+	background: url(../image/mitu&redminote7&mibracelet/3.jpg);
+	background-size: 1366px;
+}
+#cpu>.snapdragon{
+	margin-left: 270px;
+}
+#cpu>.snapdragon>h1{
+	font-size: 28px;
+	color: #FFFFFF;
+	padding-top: 98px;
+}
+#cpu>.snapdragon-1>p{
+	color: #FFFFFF;
+	font-size: 12px;
+	margin-left: 270px;
+	padding-top: 25px;
+}
+#cpu>.snapdragon-2>span{
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-top: 66px;
+	margin-left: 270px;
+	display: inline-block;
+}
+#cpu>.snapdragon-2>i{
+	font-size: 12px;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-left: 270px;
+	display: inline-block;
+}
+#cpu>span{
+	color: #9f9693;
+	font-size: 12px;
+	margin-top: 250px;
+	margin-left: 466px;
+	display: inline-block;
+}
+#hife{
+	height: 707px;
+	
+}
+#hife>.aside>.hife-1{
+	width: 283px;
+	height: 184px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_battery_img.jpg) no-repeat;
+	background-size: 284px;
+	margin-left: 270px;
+	margin-top: 41px;
+}
+#hife>img{
+	width: 384px;
+	height: 582px;
+	float: right;
+	margin-right: 288px;
+	margin-top: 68px;
+}
+#hife>.aside{
+	float: left;
+}
+#hife>.aside>h1{
+	font-size: 28px;
+	padding-top: 158px;
+	margin-left: 270px;
+}
+#hife>.aside>span{
+	font-size: 12px;
+	margin-left: 270px;
+	color: #191919;
+	display: inline-block;
+	line-height: 22px;
+	margin-top: 23px;
+}
+#hife>p{
+	display: inline-block;
+	color: #9f9693;
+	margin-left: 438px;
+	margin-top: 34px;
+}
+#network{
+	height: 734px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_net.jpg) no-repeat;
+	background-size: 1366px;
+}
+#network>h1{
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 72px;
+}
+#network>.wifi{
+	margin-left: 426px;
+}
+#network>.wifi>span{
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+	margin-top: 24px;
+}
+#network>.mobile{
+	width: 246px;
+	height: 43px;
+	border-right: 1px solid #2d2d31;
+	margin-left: 429px;
+	margin-top: 37px;
+	float: left;
+	color: #FFFFFF;
+	text-align: center;
+}
+#network>.mobile>i{
+	height: 42px;
+	width: 67px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_icdb.png) no-repeat;
+	display: inline-block;
+	background-size: 67px;
+}
+#network>.mobile>span{
+	display: inline-block;
+	line-height: 25px;
+}
+#network>.mobile>b{
+	color: #c3c3c3;
+}
+#network>.mobile-LTE{
+	margin-left: 48px;
+	padding-top: 37px;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: center;
+}
+#network>.mobile-LTE>i{
+	height: 42px;
+	width: 67px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_micard.png) no-repeat;
+	display: inline-block;
+	background-size: 67px;
+}
+#network>.mobile-LTE>span{
+	display: inline-block;
+	line-height: 25px;
+}
+#network>.mobile-LTE>b{
+	color: #c3c3c3;
+}
+#follow{
+	background: #000000;
+	height: 242px;
+	color: #FFFFFF;
+}
+#follow>h1{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 72px;
+}
+#follow>span{
+	text-align: center;
+	display: inline-block;
+	margin-left: 386px;
+	line-height: 22px;
+	margin-top: 12px;
+}
+#program{
+	height: 358px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_mitv.png) no-repeat;
+	background-size:1366px ; 
+	background-color: #000000;
+}
+#split{
+	height: 383px;
+	background: url(http://i1.mifile.cn/f/i/18/lap4/8.jpg);
+	background-size: 1366px;
+}
+#split>.pad{
+	width: 415px;
+	height: 253px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_screen.png) no-repeat;
+	z-index: 99; 
+	background-size: 415px;
+	margin-left: 334px;
+	margin-top: 78px;
+	float: left;
+}
+#split>h1{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-top: 179px;
+	float: left;
+	margin-left: 48px;
+}
+#miniTv{
+	height: 614px;
+	background: url(http://i1.mifile.cn/f/i/18/lap4/9.jpg) no-repeat;
+	background-size: 1366px;
+}
+#miniTv>h1{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 72px;
+}
+#miniTv>span{
+	color: #3b3b3b;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 506px;
+	line-height: 24px;
+	margin-top: 12px;
+}
+#miniTv>p{
+	display: inline-block;
+	font-size: 12px;
+	color: #9f9693;
+	margin-top: 386px;
+	margin-left: 624px;
+}
+#satelliteTV{
+	height: 359px;
+}
+#satelliteTV>h1{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 64px;
+}
+#satelliteTV>.sateTV{
+	height: 194px;
+	background: url(http://i1.mifile.cn/f/i/18/lap4/10-1.png) no-repeat;
+	background-size: 638px;
+	margin-left: 354px;
+	margin-top: 38px;
+}
+#book{
+	height: 474px;
+	font-size: 0px;
+}
+#book>.aside{
+	width: 674px;
+	height: 474px;
+	background: url(http://i1.mifile.cn/f/i/18/lap4/11-1.jpg) no-repeat;
+	background-size:674px ;
+	float: left;
+	font-size:0 ;
+}
+#book>.flank{
+	width: 674px;
+	height: 474px;
+	background: #f8f8f8;
+	float: right;
+	margin-right: 18px;
+}
+#book>.flank>h1{
+	font-size:26px ;
+	margin-left: 104px;
+	padding-top: 96px;
+}
+#book>.flank>span{
+	font-size: 12px;
+	color: #191919;
+	display: inline-block;
+	margin-left: 106px;
+	line-height: 21px;
+	margin-top: 13px;
+}
+#book>.flank>.more{
+	width: 166px;
+	height: 49px;
+	background: url(http://i1.mifile.cn/f/i/18/lap4/11-2.png);
+	background-size: 166px;
+	margin-left: 103px;
+	margin-top: 33px;
+}
+#daily{
+	height: 474px;
+}
+#daily>.ment{
+	width: 674px;
+	height: 474px;
+	background: #f8f8f8;
+	float: left;
+	font-size: 0;
+}
+#daily>.ment>h1{
+	font-size:26px ;
+	margin-left: 104px;
+	padding-top: 96px;
+	/*float: left;*/
+}
+#daily>.ment>span{
+	font-size: 12px;
+	color: #191919;
+	display: inline-block;
+	margin-left: 106px;
+	line-height: 21px;
+	margin-top: 13px;
+}
+#daily>.stock{
+	width: 674px;
+	height: 474px;
+	background:url(http://i1.mifile.cn/f/i/18/lap4/11-4.jpg);
+	background-size: 674px;
+	float: right;
+	margin-right: 18px;
+}
+#game{
+	height: 474px;
+}
+#game>.gamebg{
+	width: 674px;
+	height: 474px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_game.jpg);
+	background-size: 674px;
+	float: left;
+}
+#game>.gametxt{
+	width: 674px;
+	height: 474px;
+	background: #f8f8f8;
+	float: right;
+	margin-right: 18px;
+}
+#game>.gametxt>h1{
+	font-size:26px ;
+	margin-left: 104px;
+	padding-top: 96px;
+}
+#game>.gametxt>span{
+	font-size: 12px;
+	color: #191919;
+	display: inline-block;
+	margin-left: 106px;
+	line-height: 21px;
+	margin-top: 13px;
+}
+#game>.gametxt>.gamecenter{
+	width: 166px;
+	height: 49px;
+	background: url(http://i1.mifile.cn/f/i/18/lap4/11-6.png) no-repeat;
+	background-size: 166px;
+	margin-left: 103px;
+	margin-top: 33px;
+}
+#photo{
+	height: 654px;
+	background: url(http://i1.mifile.cn/f/i/18/lap4/12.jpg) no-repeat;
+	background-size: 1350px;
+}
+#photo>h1{
+	font-size: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top:72px ;
+}
+#photo>span{
+	font-size: 12px;
+	color: #eaeaea;
+	display: inline-block;
+	margin-top: 12px;
+	line-height: 24px;
+	text-align: center;
+	margin-left: 434px;
+}
+#assistant{
+	height: 652px;
+	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_xiaoai.jpg) no-repeat;
+	background-size: 1350px;
+}
+#assistant>h1{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 71px;
+}
+#assistant>span{
+	font-size: 12px;
+	color: #333333;
+	display: inline-block;
+	text-align: center;
+	line-height: 21px;
+	margin-left: 405px;
+	margin-top: 24px;
+}
+#assistant>p{
+	font-size: 12px;
+	color: #9fa0b5;
+	text-align: center;
+	margin-top: 430px;
+}
+#imgs{
+	height: 580px;
+}
+#imgs>.pad4{
+	width: 242px;
+	height: 410px;
+}

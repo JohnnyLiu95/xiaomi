@@ -1,0 +1,76 @@
+/* 公共样式 */
+.common{width:1226px;margin:0 auto;}
+/* 页头 */
+.header{width:100%;height:100px;border-bottom:2px solid #ff6700;}
+.header>.container{height:100px;line-height:100px;}
+.header>.container>.logo{float:left;width:48px;height:48px;background:url(../image/cart/miLogo.png) -46px 0 no-repeat;margin:26px 45px 0 0;}
+.header>.container>.logo:hover{background:url(../image/cart/miLogo.png) 0 0 no-repeat;transition:all 0.5s ;}
+.header>.container>h2{float:left;font-size:28px;font-weight:normal;}
+.header>.container>.log_reg{float:right;font-size:14px;color:#e4e0e4;}
+.header>.container>.log_reg>a{color:#757575;}
+.header>.container>.log_reg>a.login{margin-right:7px;}
+.header>.container>.log_reg>a.register{margin-left:7px;}
+
+/* 主要内容 */
+.main{background:#f5f5f5;padding-top:0.1px;}
+.main>.empty{height:455px;background:url(../image/cart/emptyBg.png) 190px 75px no-repeat;padding-top:0.1px;border-bottom:1px solid #e0e0e0;}
+.main>.empty>h2{margin-left:560px;margin-top:126px;margin-bottom:17px;font-size:36px;color:#b0b0b0;}
+.main>.empty>h3{margin-left:560px;font-size:18px;color:#b0b0b0;margin-bottom:26px;}
+.main>.empty>div{margin-left:560px;height:50px;}
+.main>.empty>div>a{float:left;width:172px;height:50px;border:1px solid #ff6700;box-sizing: border-box;line-height:50px;text-align:center;}
+.main>.empty>div>a.login{background:#ff6700;color:#fff;margin-right:14px;}
+.main>.empty>div>a.login:hover{background:rgb(242,88,7)}
+.main>.empty>div>a.toShop{color:#ff6700;}
+
+.main>.recommend{position:relative;padding:50px 0 53px 0;}
+.main>.recommend>h1{font-size:28px;color:#757575;width:482px;height:100px;line-height:100px;margin:0 auto;text-align:center;position:absolute;top:-50px;left:50%;transform:translateX(-50%);background:#f5f5f5;}
+.main>.recommend>ul{width:1245px;margin-left:-14px;}
+.main>.recommend>ul:after{content:"";display: block;clear:both;}
+.main>.recommend>ul>li{float:left;width:235px;height:300px;background:#fff;margin-left:14px;position:relative;margin-bottom:14px;}
+.main>.recommend>ul>li>a{margin:40px 46px 22px 48px;display:block;}
+.main>.recommend>ul>li>a>img{width:140px;height:140px;}
+.main>.recommend>ul>li>p.title{text-align: center;height:12px;line-height:12px;}
+.main>.recommend>ul>li>p.title>a{color:#333;font-size:12px;}
+.main>.recommend>ul>li>p.price{text-align: center;font-size:12px;color:#ff6700;margin:17px 0 19px 0;}
+.main>.recommend>ul>li>p.comment{color:#757575;text-align: center;font-size:12px;}
+.main>.recommend>ul>li>div.pushCart{display:none;position:absolute;bottom:10px;left:50%;background:#fff;z-index:1;cursor:pointer;transform:translateX(-50%);width:120px;height:28px;border:1px solid #ff6700;text-align: center;line-height:28px;color:#ff6700;}
+.main>.recommend>ul>li>div.pushCart:hover{background:#ff6700;color:#fff;}
+.main>.recommend>ul>li:hover>div.pushCart{display: block;}
+
+
+
+.service{height:80px;border-bottom:1px solid #bebebe;text-align:center;width:1226px;margin:0 auto;}
+.service>ul>li{float:left;height:80px;line-height:80px;}
+.service>ul>li>a{padding:5px 57px 5px 57px;border-right:1px solid #b5c4ec;font-size:16px;color:#9d9d9d;}
+.service>ul>li>a:hover{color: #ff6700;}
+.service>ul>li:first-of-type>a{padding-left:123px;}
+.service>ul>li:last-of-type>a{border-right:0;}
+
+
+.link{height:210px;padding:51px 0 0 0px;box-sizing: border-box;width:1226px;margin:0 auto;}
+.link>ul{float:left;margin-right:102px;}
+.link>ul>li{line-height:30px;}
+.link>ul>li>a{color: #757575;}
+.link>ul>li>a:hover{color: #ff6700;}
+.link>ul>li:first-of-type{line-height:14px;margin-bottom:24px;}
+.link>ul>li:first-of-type>a{color:#000;font-size:14px;}
+.link>div{float:right;text-align:center;height:120px;box-sizing: border-box;padding:0 60px 0 60px;border-left:1px solid #bebebe;}
+.link>div>h2{color:#ff6700;font-weight:normal;font-size:22px;line-height:16px;margin:4px 0 12px 0;}
+.link>div>p{line-height:20px;color:#616161;}
+.link>div>a{display: inline-block;margin-top:13px;width:122px;height:32px;line-height:32px;box-sizing: border-box;border:1px solid #ff6700;color:#ff6700;}
+.link>div>a:hover{background:#ff6700;color:#fff;}
+
+footer{background:#fafafa;}
+footer>div{width:1226px;margin:0 auto;}
+footer>div>a{float:left;margin:15px 10px 0 0;  width: 55px;height: 55px;overflow: hidden;background: #ff6700 url(../image/header&footer/mi-logo.png) 3px 4px no-repeat;}
+footer>div>div{float:left;margin-top:15px;}
+footer>div>div>ul{height:12px;}
+footer>div>div>ul>li{float:left;padding:0 3px 0 3px;border-right:1px solid #b0b0b0;}
+footer>div>div>ul>li>a{color:#757575;}
+footer>div>div>ul>li:first-of-type{padding-left:0;}
+footer>div>div>ul>li:last-of-type{border-right:0;}
+footer>div>div>p{color: #b0b0b0;width:1159px;height:72px;font-size:12px;line-height: 18px;;margin-top:6px;}
+footer>div>div>.info-links{height: 28px;margin: 4px 0 0;}
+footer>div>div>.info-links img{width: auto;height: 28px;margin-left: 0px;margin-bottom: 15px;}
+footer>img{display: block;margin:0 auto;}
+

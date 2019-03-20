@@ -1,0 +1,598 @@
+i{
+	font-style: normal;
+}
+b{
+	font-weight: normal;
+}
+h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #575757;
+	display: inline-block;
+}
+p{
+	font-size: 12px;
+	color: #7f8588;
+	display: inline-block;
+}
+.commen{
+	width: 1310px;
+	margin: 0 auto;
+}
+
+
+
+
+
+.mini{
+	display: none;
+	width: 1310px;
+	height: 63px;
+	margin: 0 auto;
+	border: 1px solid #e0e0e0;
+	position: fixed;
+	top:0;
+	left:50%;
+	transform:translateX(-50%);
+	background: #FFFFFF;
+}
+#hide>span{
+	font-size: 17px;
+	margin-left: 42px;
+	line-height: 63px;
+}
+#hide>ul{
+	float: right;
+	margin-right: 170px;
+}
+#hide>ul>li{
+	float: left;
+	line-height: 63px;
+}
+#hide>ul>li>a{
+	color: #616161;
+	padding:0 8px;
+	border-right: 2px solid #ebe4e0;
+}
+#hide>ul>li>a:last-of-type{
+	/*border-right: none;*/
+}
+#hide>ul>input{
+	float: right;
+	width: 120px;
+	height: 30px;
+	background-color: #ff6700;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	margin-top: 17px;
+}
+#hide>ul>li>a:hover{
+	color: #ff6700;
+}
+
+
+
+
+
+
+#hde{
+	width: 1310px;
+	height: 63px;
+	margin: 0 auto;
+	border: 1px solid #e0e0e0;
+}
+#hde>span{
+	font-size: 17px;
+	margin-left: 42px;
+	line-height: 63px;
+}
+#hde>ul{
+	float: right;
+	margin-right: 170px;
+}
+#hde>ul>li{
+	float: left;
+	line-height: 63px;
+}
+#hde>ul>li>a{
+	color: #616161;
+	padding:0 8px;
+	border-right: 2px solid #ebe4e0;
+}
+#hde>ul>li>a:last-of-type{
+	/*border-right: none;*/
+}
+#hde>ul>input{
+	float: right;
+	width: 120px;
+	height: 30px;
+	background-color: #ff6700;
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	margin-top: 17px;
+}
+#hde>ul>li>a:hover{
+	color: #ff6700;
+}
+#banner{
+	height: 476px;
+	background-image: url(../image/mitu&redminote7&mibracelet/mitu-mini-01.jpg);
+	background-size:1310px;
+}
+#banner>span{
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 146px;
+	margin-left: 106px;
+}
+#banner>i{
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 106px;
+	margin-top: 26px;
+	color: #525252;
+}
+#banner .mitukey{
+	margin-left: 106px;
+	margin-top: 29px;
+}
+#banner .mitukey>b{
+	padding: 0 16px;
+	border-right: 2px solid #ababad;
+	color: #858585;
+}
+#banner .mitukey>b:first-of-type{
+	padding-left: 0;
+}
+#banner .mitukey>b:last-of-type{
+	border: none;
+}
+#banner .mitukey>span{
+	font-size: 20px;
+	color: #4cc7dd;
+	font-weight: bold;
+	margin-top: 44px;
+	display: inline-block;
+}
+#banner .mitukey>i{
+	font-size: 14px;
+	color: #4cc7dd;
+}
+#reddot{
+	height: 286px;
+	background: #f9f9f9;
+}
+#reddot>img{
+	margin-left: 207px;
+	margin-top: 83px;
+	float: left;
+}
+#reddot>span{
+	font-size: 22px;
+	margin-top: 97px;
+	color: #000000;
+	display: inline-block;
+	margin-left: 42px;
+}
+#reddot>i{
+	float: left;
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 42px;
+	margin-top: 23px;
+	color: #7f8588;
+}
+#bluetooth{
+	height: 602px;
+	background: url(../image/mitu&redminote7&mibracelet/mitu-mini-bluetooth.jpg);
+	background-size:1310px ;
+}
+#bluetooth>h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #575757;
+	margin-left: 476px;
+	margin-top: 52px;
+	display: inline-block;
+}
+#bluetooth>p{
+	font-size: 12px;
+	color: #7f8588;
+	display: inline-block;
+	margin-left: 344px;
+	margin-top: 24px;
+}
+#preload{
+	height: 732px;
+	background: url(../image/mitu&redminote7&mibracelet/mitu-mini-04s.jpg);
+	background-size: 1310px;
+}
+#preload>h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: #575757;
+	display: inline-block;
+	margin-top: 43px;
+	margin-left: 476px;
+}
+#preload>p{
+	font-size: 12px;
+	color: #7f8588;
+	display: inline-block;
+	margin-left: 354px;
+	margin-top: 23px;
+	text-align: center;
+}
+#built{
+	height: 724px;
+	background: url(../image/mitu&redminote7&mibracelet/mitu-mini-05v2.jpg);
+	background-size: 1310px;
+}
+#built>h2{
+	font-size: 22px;
+	font-weight: normal;
+	display: inline-block;
+	margin-left: 464px;
+	margin-top: 45px;
+}
+#built>p{
+	margin-left: 340px;
+	margin-top: 23px;
+	text-align: center;
+}
+#built>span{
+	display: inline-block;
+	font-size: 12px;
+	color: #9e9699;
+	margin-top: 571px;
+	margin-left: 449px;
+}
+#mifile{
+	height: 614px;
+	background: url(../image/mitu&redminote7&mibracelet/mitu-mini-06.jpg);
+	background-size: 1310px;
+}
+#mifile>h2{
+	margin-left: 656px;
+	margin-top: 312px;
+}
+#mifile>p{
+	margin-left: 656px;
+	margin-top: 23px;
+}
+#mitu-mini-07{
+	height: 652px;
+	background: url(../image/mitu&redminote7&mibracelet/mitu-mini-07.jpg);
+	background-size:1310px;
+}
+#mitu-mini-07>h2{
+	margin-top: 252px;
+	margin-left: 106px;
+}
+#mitu-mini-07>p{
+	margin-left: 106px;
+	margin-top: 22px;
+}
+#mitu-mini-08{
+	height: 542px;
+	background: url(../image/mitu&redminote7&mibracelet/mitu-mini-08.jpg);
+	background-size: 1310px;
+}
+#mitu-mini-08>h2{
+	margin-top: 215px;
+	margin-left: 106px;
+}
+#mitu-mini-08>p{
+	margin-left: 106px;
+	margin-top: 23px;
+}
+#mitu-mini-08>span{
+	display: inline-block;
+	font-size: 12px;
+	color: #929699;
+	margin-left: 106px;
+	margin-top: 26px;
+}
+#mitu-mini-09{
+	height: 452px;
+}
+#mitu-mini-09>h1{
+	font-size: 22px;
+	margin-top: 59px;
+	margin-left: 501px;
+	font-weight: normal;
+	color: #7b5757;
+}
+#mitu-mini-09 .icon-mi{
+	width: 1310px;
+}
+#mitu-mini-09 .icon-1{
+	float: left;
+	width: 79px;
+	margin-left: 374px;
+	margin-top: 34px;
+}
+#mitu-mini-09 .icon-1 i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) 0 0;
+}
+#mitu-mini-09 .icon-1>span{
+	display: inline-block;
+	text-indent: 15px;
+	font-size: 12px;
+	margin-top: 26px;
+}
+
+
+
+#mitu-mini-09 .icon-2{
+	float: left;
+	width: 79px;
+	margin-left: 81px;
+	margin-top: 34px;
+}
+#mitu-mini-09 .icon-2 i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) -176px 0;
+}
+#mitu-mini-09 .icon-2>span{
+	display: inline-block;
+	text-indent: 6px;
+	margin-top: 26px;
+}
+
+
+#mitu-mini-09 .icon-3{
+	float: left;
+	width: 79px;
+	margin-left: 81px;
+	margin-top: 34px;
+}
+#mitu-mini-09 .icon-3 i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) -352px 0;
+}
+#mitu-mini-09 .icon-3>span{
+	display: inline-block;
+	text-indent: 16px;
+	margin-top: 26px;
+}
+
+
+
+
+#mitu-mini-09 .icon-4{
+	float: left;
+	width: 79px;
+	margin-left: 81px;
+	margin-top: 34px;
+}
+#mitu-mini-09 .icon-4 i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) -528px 0;
+}
+#mitu-mini-09 .icon-4>span{
+	display: inline-block;
+	text-indent: 16px;
+	margin-top: 26px;
+}
+
+
+#mitu-mini-09>.icon-mitu>.icon-5{
+	float: left;
+	width: 79px;
+	margin-left: 374px;
+	margin-top: 35px;
+}
+#mitu-mini-09>.icon-mitu>.icon-5>i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) 0 -134px;
+}
+#mitu-mini-09>.icon-mitu>.icon-5>span{
+	display: inline-block;
+	text-indent: 16px;
+	margin-top: 26px;
+}
+
+
+
+#mitu-mini-09>.icon-mitu>.icon-6{
+	float: left;
+	width: 79px;
+	margin-left: 81px;
+	margin-top: 35px;
+}
+#mitu-mini-09>.icon-mitu>.icon-6>i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) -176px -134px;
+}
+#mitu-mini-09>.icon-mitu>.icon-6>span{
+	display: inline-block;
+	text-indent: 16px;
+	margin-top: 26px;
+}
+
+
+
+#mitu-mini-09>.icon-mitu>.icon-7{
+	float: left;
+	width: 79px;
+	margin-left: 81px;
+	margin-top: 35px;
+}
+#mitu-mini-09>.icon-mitu>.icon-7>i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) -352px -134px;
+}
+#mitu-mini-09>.icon-mitu>.icon-7>span{
+	display: inline-block;
+	text-indent: 16px;
+	margin-top: 26px;
+}
+
+
+
+#mitu-mini-09>.icon-mitu>.icon-8{
+	float: left;
+	width: 79px;
+	margin-left: 81px;
+	margin-top: 35px;
+}
+#mitu-mini-09>.icon-mitu>.icon-8>i{
+	display: inline-block;
+	width: 79px;
+	height: 79px;
+	background: url(../image/mitu&redminote7&mibracelet/xuebi.png) -528px -134px;
+}
+#mitu-mini-09>.icon-mitu>.icon-8>span{
+	display: inline-block;
+	text-indent: 18px;
+	margin-top: 26px;
+}
+#mitu-mini-10{
+	height: 270px;
+}
+#mitu-mini-10>.img-r{
+	width: 655px;
+	height: 270px;
+	float: left;
+}
+#mitu-mini-10>.img-r>img{
+		width: 655px;
+	height: 270px;
+}
+#mitu-mini-10>.list-type>h1{
+	font-size: 22px;
+	font-weight: normal;
+	display: inline-block;
+	margin-top: 98px;
+	margin-left: 65px;
+	color: #575757;
+}
+#mitu-mini-10>.list-type>span{
+	font-size: 12px;
+	color: #7f8588;
+	margin-left: 65px;
+	display: inline-block;
+	margin-top: 26px;
+}
+#mitu-mini-11{
+	width: 1310px;
+	height: 270px;
+}
+#mitu-mini-11>.img-r{
+	width: 655px;
+	height: 270px;
+	float: right;
+}
+#mitu-mini-11>.img-y>img{
+		width: 655px;
+		height: 270px;
+	float: right;
+		
+}
+#mitu-mini-11>.list-text{
+	float: left;
+	width: 655px;
+	height: 270px;
+}
+#mitu-mini-11>.list-text>h1{
+	font-size: 22px;
+	font-weight: normal;
+	display: inline-block;
+	margin-top: 98px;
+	float: right;
+	margin-right: 67px;
+	color: #575757;
+}
+#mitu-mini-11>.list-text>span{
+	font-size: 12px;
+	color: #7f8588;
+	display: inline-block;
+	margin-top: 23px;
+	text-align: right;
+	margin-left: 312px;
+}
+#mitu-mini-12{
+	width: 1310px;
+	height: 280px;
+}
+#mitu-mini-12>.img-p{
+	width: 655px;
+	height: 270px;
+	float: left;
+}
+#mitu-mini-12>.img-p>img{
+		width: 655px;
+		height: 270px;
+}
+#mitu-mini-12>.list-type>h1{
+	font-size: 22px;
+	font-weight: normal;
+	display: inline-block;
+	margin-top: 98px;
+	margin-left: 65px;
+	color: #575757;
+}
+#mitu-mini-12>.list-type>span{
+	font-size: 12px;
+	color: #7f8588;
+	margin-left: 65px;
+	display: inline-block;
+	margin-top: 26px;
+}
+#mitu-mini-13{
+	width: 1310px;
+	height:676px;
+}
+#mitu-mini-13 img{
+	left: 298px;
+	top: 6154px;
+	width: 1310px;
+	height: 676px;
+	display: none;
+	position: absolute;
+}
+#mitu-mini-13>a{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background: #000;
+	opacity: 0.5;
+	display: inline-block;
+	text-align: center;
+	color: #626854;
+	vertical-align: middle;
+	font-size: 30px;
+}
+#mitu-mini-13>a:hover{
+	opacity: 0.7;
+}
+#mitu-mini-13>a>span{
+	display: inline-block;
+	margin-top: 14px;
+}
+#mitu-mini-13>a:first-of-type{
+	margin-top: 286px;
+	margin-left: 64px;
+}
+#mitu-mini-13>a:last-of-type{
+	margin-top: 286px;
+	margin-left: 1028px;
+}

@@ -1,0 +1,85 @@
+/* 页头 */
+header{background:#333;}
+header a:hover{color:#fff;}
+header>div{height:40px;width:1226px;margin:0 auto;}
+header>div>ul{float:left;}
+header>div>ol{float:right;}
+header>div>ul>li{float:left;padding:0 6px 0 6px;margin-top:13px;border-right:1px solid #424242;}
+header>div>ul>li:first-of-type{padding-left:5px;}
+header>div>ul>li:last-of-type{padding-right:0;border-right:0;}
+header>div>ol>li{float:left;margin-top:13px;padding:0 12px 0 12px;}
+header>div>ol>li{border-right:1px solid #424242;}
+header>div>ol>li:nth-of-type(3){border-right:0}
+header>div>ol>li:last-of-type{position:relative;padding-right:16px;border-left:1px solid rgba(0,0,0,0);background:#424242;height:40px;margin-top:0px;line-height:40px;border-right:0;}
+header>div>ol>li:last-of-type>.toBarShopCart{display:none;line-height:60px;box-shadow: 0 2px 10px rgba(0,0,0,0.15);text-align:center;color:#333;width:300px;height:80px;position:absolute;background:#fff;right:-1px;top:40px;z-index:4;}
+
+/* 搜索栏 */
+#searchBar{height:100px;position: relative;}
+#searchBar>.box{width:1226px;margin:0 auto}
+#searchBar>.box>a{float:left;margin:20px 0 0 3px;  width: 55px;height: 55px;overflow: hidden;background: #ff6700 url(../image/header&footer/mi-logo.png) 3px 4px no-repeat;}
+#searchBar>.box>span{float:left;width:156px;height:100px;}
+#searchBar>.box>ul{float:left;margin:0px 11px 0 0px;height:100px;line-height:100px;}
+#searchBar>.box>ul>li{padding:0 10px;float:left;height:100px;}
+#searchBar>.box>ul>li>a{font-size:16px;color:#424242;}
+#searchBar>.box>ul>li>a:hover{color:#ff6700;}
+#searchBar>.box>form{position:relative;float:left;margin-top:25px;background:green;font-size:0;width:304px;margin-left:80px;}
+#searchBar>.box>form>input{vertical-align:top;}
+#searchBar>.box>form>input:first-of-type{width:247px;height:52px;box-sizing: border-box;background:#fff;border:1px solid #f0f0f0;outline:none;}
+#searchBar>.box>form>input:last-of-type{width:57px;height:52px;box-sizing: border-box;background:#fff;border:1px solid #f0f0f0;border-left:0;color:#424242;font-size:16px;font-weight:bold;cursor:pointer;}
+#searchBar>.box>form>input:last-of-type:hover{background:#ff6700;color:#fff;transition:all 0.25s linear;}
+#searchBar>.box>form>a{display:block;position:absolute;height:18px;padding: 0 5px;font-size: 12px;background: #eee;color: #757575;}
+#searchBar>.box>form>a:first-of-type{left:140px;top:17px;}
+#searchBar>.box>form>a:last-of-type{left:183px;top:17px;}
+#searchBar>.box>form>a:hover{background:#ff6700;color:#fff;transition:all 0.25s linear;}
+#searchBar>.box>form>.proList{display:none;position:absolute;top:52px;left:0;width:302px;background:#fff;z-index: 20;border: 1px solid #ff6700;border-top: 0;}
+#searchBar>.box>form>.proList>li{padding:6px 15px;height:16px;cursor:pointer;}
+#searchBar>.box>form>.proList>li:hover{background:rgba(0,0,0,0.1);transition:all 0.25s linear;}
+#searchBar>.box>form>.proList>li>a>.protitle{float:left;color: #333;}
+#searchBar>.box>form>.proList>li>a>.proNum{float:right;color: #b0b0b0;}
+#searchBar>.container{display:none;box-shadow: 0 3px 4px rgba(0,0,0,0.18);width:100%;position: absolute;top: 100px;left: 50%;transform:translateX(-50%);background:red;z-index: 24;width: 100%;height: 229px;border-top: 1px solid #e0e0e0;background: #fff;}
+#searchBar>.container>.box{margin: 0 auto;padding: 0;width:1226px;overflow:hidden;}
+#searchBar>.container>.box>ul{margin-left:-1224px;list-style-type: none;font-size: 12px;height:210px;text-align:center;width:9792px;}
+#searchBar>.container>.box>ul>li{position: relative;float: left;width: 180px;padding: 35px 12px 0;text-align: center;}
+#searchBar>.container>.box>ul>li>.figure{width: 160px;height: 110px;margin: 0 auto 16px;text-align: center;}
+#searchBar>.container>.box>ul>li>.figure>a>img{width: 160px;height: 110px;}
+#searchBar>.container>.box>ul>li>.title{margin: 0;line-height: 20px;}
+#searchBar>.container>.box>ul>li>.title>a{color: #333;}
+#searchBar>.container>.box>ul>li>.price{margin: 0;line-height: 20px;color: #ff6700;}
+#searchBar>.container>.box>ul>li>.hot{width:66px;height:22px;position:absolute;left:50%;transform:translateX(-50%);top:0;border:1px solid #ff6700;text-align:center;line-height:22px;color:#ff6700;}
+
+/* 靠近页脚一条服务：1小时快修…… */
+.service{height:80px;border-bottom:1px solid #bebebe;text-align:center;width:1226px;margin:0 auto;}
+.service>ul>li{float:left;height:80px;line-height:80px;}
+.service>ul>li>a{padding:5px 57px 5px 57px;border-right:1px solid #b5c4ec;font-size:16px;color:#9d9d9d;}
+.service>ul>li>a:hover{color: #ff6700;}
+.service>ul>li:first-of-type>a{padding-left:123px;}
+.service>ul>li:last-of-type>a{border-right:0;}
+
+/* 页脚链接 */
+.link{height:210px;padding:51px 0 0 0px;box-sizing: border-box;width:1226px;margin:0 auto;}
+.link>ul{float:left;margin-right:102px;}
+.link>ul>li{line-height:30px;}
+.link>ul>li>a{color: #757575;}
+.link>ul>li>a:hover{color: #ff6700;}
+.link>ul>li:first-of-type{line-height:14px;margin-bottom:24px;}
+.link>ul>li:first-of-type>a{color:#000;font-size:14px;}
+.link>div{float:right;text-align:center;height:120px;box-sizing: border-box;padding:0 60px 0 60px;border-left:1px solid #bebebe;}
+.link>div>h2{color:#ff6700;font-weight:normal;font-size:22px;line-height:16px;margin:4px 0 12px 0;}
+.link>div>p{line-height:20px;color:#616161;}
+.link>div>a{display: inline-block;margin-top:13px;width:122px;height:32px;line-height:32px;box-sizing: border-box;border:1px solid #ff6700;color:#ff6700;}
+.link>div>a:hover{background:#ff6700;color:#fff;transition:all 0.25s linear;}
+
+/* 页脚 */
+footer{height:79px;background:#fafafa;}
+footer>div{width:1226px;margin:0 auto;}
+footer>div>a{float:left;margin:15px 10px 0 0;  width: 55px;height: 55px;overflow: hidden;background: #ff6700 url(../image/header&footer/mi-logo.png) 3px 4px no-repeat;}
+footer>div>div{float:left;margin-top:15px;}
+footer>div>div>ul{height:12px;}
+footer>div>div>ul>li{float:left;padding:0 3px 0 3px;border-right:1px solid #b0b0b0;}
+footer>div>div>ul>li>a{color:#757575;}
+footer>div>div>ul>li:first-of-type{padding-left:0;}
+footer>div>div>ul>li:last-of-type{border-right:0;}
+footer>div>div>p{color: #b0b0b0;width:1159px;height:72px;font-size:12px;line-height: 18px;;margin-top:6px;}
+footer>div>div>.info-links{height: 28px;margin: 4px 0 0;}
+footer>div>div>.info-links img{width: auto;height: 28px;margin-left: 0px;margin-bottom: 15px;}
+footer>img{display: block;margin:0 auto;}
