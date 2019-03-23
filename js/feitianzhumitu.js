@@ -90,24 +90,15 @@ console.log($("#problem").offset().top)
 
 //最底下轮播图部分
 $(function(){
-	$("#buyAgain>div>dl").hover(function(){
-		$("#buyAgain>div>dl>dd:eq(2)>a").html("加入购物车");
-//		$("#buyAgain>div>dl").css("background","#fff");
+	$("#buyAgain>div>div:eq(1)>span").click(function(){
+		$("#buyAgain>div>div:eq(1)>span").removeClass();
+		$(this).addClass("active");
+		var ind=$(this).index();
+		console.log(ind);
+		$("#buyAgain>div>div:eq(0)").animate({
+			"margin-left":-(1226*ind)+"px"
+		});
 	})
-	
-	$.get("../json/feitianzhumitu.json",function(data){
-	$("#buyAgain>div").html("");
-	var buyAgainArr=data.buyAgain;
-	for(var item of buyAgainArr){
-		$("#buyAgain>div").append(`<dl>
-					<dt><img src="`+item["imgSrc"]+`" /></dt>
-					<dd><a href="">`+item["title"]+`</a></dd>
-					<dd>`+item["price"]+`</dd>
-					<dd><a href="">`+item["supportNum"]+`</a></dd>
-				</dl>
-		`);
-	}
-})
 })
 
 

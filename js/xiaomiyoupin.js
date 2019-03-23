@@ -173,18 +173,7 @@ $(".main2 .rightBtn").bind("click",function(){
 	})
 })
 
-//右边侧边栏固定部分
-
-
-//返回顶部
-$(function(){
-	$("#aside>.div5").click(function(){
-		$('body,html').animate({scrollTop:0},500);
-		return false;
-	})
-})
-
-//每日新品
+//每日新品dailyNew
 $.get("../json/xiaomiyoupin.json",function(data){
 	$("#dailyNew>div").html("");
 	var dailyNewArr=data.dailyNew;
@@ -214,7 +203,7 @@ $.get("../json/xiaomiyoupin.json",function(data){
 //$.get("../json/xiaomiyoupin.json",function(data){
 //	$("#zhongchou>div>div.sec2").html("");
 //	var zhongchouArr=data.zhongchou;
-//	for(var i=0;i<10;i++){
+//	for(var i=0;i<;i++){
 //		if(zhongchouArr[i.toString()]){
 //			for(var j=0;j<zhongchouArr[i.toString()].length;j++){
 //				var item=zhongchouArr[i.toString()][j];
@@ -238,20 +227,28 @@ $.get("../json/xiaomiyoupin.json",function(data){
 
 //限时购
 $.get("../json/xiaomiyoupin.json",function(data){
-	$("#buy>div>div.main2").html("");
+	$("#buy>div>.main2>.container").html("");
 	var buyArr=data.buy;
 	for(var item of buyArr){
-		$("#buy>div>div.main2").append(`
-			<div class="main2_1">
-						<div>
-							<img src="`+item["imgSrc"]+`" /><span>`+item["discount"]+`</span>
-						</div>
+		var div=$("<div></div>");
+		$(div).append(`
 						<p class="p1">`+item["title"]+`</p>
-						<p class="p2">`+item["price"]+`<span>`+item["original-price"]+`</span></p>						
-					</div>
+						<p class="p2">`+item["price"]+`<span>`+item["original-price"]+`</span></p>
 		`);
+		if(item['discount']){
+			$(div).prepend(`<div>
+							<img src="`+item["imgSrc"]+`" /><span>`+item["discount"]+`</span>
+						</div>`);
+		}else{
+			$(div).prepend(`<div>
+							<img src="`+item["imgSrc"]+`" />
+						</div>`);
+		}
+		$("#buy>div>.main2>.container").append(div);
 	}
 })
+
+
 
 //每日新品day
 $.get("../json/xiaomiyoupin.json",function(data){
@@ -300,70 +297,79 @@ $.get("../json/xiaomiyoupin.json",function(data){
 })
 
 //居家
-$.get("../json/xiaomiyoupin.json",function(data){
-	$(".home:eq(0)>div>div.main2").html("");
-	var homeArr=data.home;
-	for(var item of homeArr){
-		$(".home:eq(0)>div>div.main2").append(`
-			<div>
-						<div>
-							<img src="`+item["imgSrc"]+`" />
-							<p>`+item["des"]+`</p>
-						</div>
-						<div>
-							<span>`+item["discount"]+`</span>
-							<p>`+item["title"]+`</p>
-							<em>`+item["price"]+`<span>起</span></em>
-						</div>
-					</div>
-		`);
-	}
-	$(".home:eq(0)>div>div.main2>div:eq(3)").addClass("main2_4");
-})
+//$.get("../json/xiaomiyoupin.json",function(data){
+//	$(".home:eq(0)>div>div.main2").html("");
+//	var homeArr=data.home;
+//	for(var item of homeArr){
+//		$(".home:eq(0)>div>div.main2").append(`
+//			<div>
+//						<div>
+//							<img src="`+item["imgSrc"]+`" />
+//							<p>`+item["des"]+`</p>
+//						</div>
+//						<div>
+//							<span>`+item["discount"]+`</span>
+//							<p>`+item["title"]+`</p>
+//							<em>`+item["price"]+`<span>起</span></em>
+//						</div>
+//					</div>
+//		`);
+//	}
+//})
 
 //家电
-$.get("../json/xiaomiyoupin.json",function(data){
-	$(".home:eq(1)>div>div.main2").html("");
-	var appliancesArr=data.appliances;
-	for(var item of appliancesArr){
-		$(".home:eq(1)>div>div.main2").append(`
-			<div>
-						<div>
-							<img src="`+item["imgSrc"]+`" />
-							<p>`+item["des"]+`</p>
-						</div>
-						<div>
-							<span>`+item["discount"]+`</span>
-							<p>`+item["title"]+`</p>
-							<em>`+item["price"]+`<span>起</span></em>
-						</div>
-					</div>
-		`);
-	}
-	$(".home:eq(1)>div>div.main2>div:eq(3)").addClass("main2_4");
-})
+//$.get("../json/xiaomiyoupin.json",function(data){
+//	$(".home:eq(1)>div>.main2").html("");
+//	var appliancesArr=data.appliances;
+//	for(var item of appliancesArr){
+//		var div=$("<div></div>");
+//		$(div).append(`
+//						<div>
+//							<img src="`+item["imgSrc"]+`" />
+//							<p>`+item["des"]+`</p>
+//						</div>
+//		`);
+//		
+//		var div1=$("<div></div>");
+//		if(item["discount"]){
+//			$(div1).append(`
+//				<span><a href="">`+item["discount"]+`</a></span>
+//							<p>`+item["title"]+`</p>
+//							<em>`+item["price"]+`<span>起</span></em>`);
+//			$(div).append(div1);
+//		}else{
+//			$(div1).append(`
+//				
+//							<p>`+item["title"]+`</p>
+//							<em>`+item["price"]+`<span>起</span></em>`);
+//			$(div).append(div1);
+//		}
+//		$(".home:eq(1)>div>div.main2").append(div);
+//	}
+//});
 
 //手机
-$.get("../json/xiaomiyoupin.json",function(data){
-	$("#home:eq(2)>div>div.main2").html("");
-	var appliancesArr=data.appliances;
-	for(var item of appliancesArr){
-		$("#home:eq(2)>div>div.main2").append(`
-			<div>
-						<div>
-							<img src="`+item["imgSrc"]+`" />
-							<p>`+item["des"]+`</p>
-						</div>
-						<div>
-							<span>`+item["discount"]+`</span>
-							<p>`+item["title"]+`</p>
-							<em>`+item["price"]+`<span>起</span></em>
-						</div>
-					</div>
-		`);
-	}
-	$("#home:eq(2)>div>div.main2>div:eq(3)").addClass("main2_4");
-})
+//$.get("../json/xiaomiyoupin.json",function(data){
+//	$(".home:eq(2)>div>.main2").html("");
+//	var phoneArr=data.phone;
+//	for(var item of phoneArr){
+//		var div=$("<div></div>");
+//		$(div).append(`
+//			<div>
+//				<img src="`+item["imgSrc"]+`" />
+//			</div>
+//			<p class="p1">`+item["title"]+`</p>
+//			<p class="p2">`+item["des"]+`</p>
+//			<p class="p3">`+item["price"]+`</p>
+//		`);
+//		
+//		if (item['choice']) {
+//          div.append(`<p class="p4">`+item["choice"]+`</p>`)
+//      }
+//		
+//		$("#day>div>div.main2>div.container").append(div);        
+//	}
+//})
 
 
 
@@ -389,7 +395,7 @@ function clock(){
     $("#hours").html(getZero(shengyuH));
     $("#minutes").html(getZero(shengyuM));
     $("#seconds").html(getZero(S));
-    console.log(shengyuD+"天"+shengyuH+"小时"+shengyuM+"分"+S+"秒"+"");
+//  console.log(shengyuD+"天"+shengyuH+"小时"+shengyuM+"分"+S+"秒"+"");
     // setTimeout("clock()",500);
     setTimeout(clock,500);
 }
@@ -397,42 +403,14 @@ function getZero(num){
 	return num>9?num:"0"+num;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//返回顶部
+$(function(){
+	$("#aside>.div5").click(function(){
+		$('body,html').animate({
+			scrollTop:0
+		},500);
+		return false;
+	})
+})
 
 
