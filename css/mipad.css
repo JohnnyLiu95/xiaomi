@@ -148,19 +148,48 @@ i{
 #banner>.mipad-4>h1{
 	font-size: 30px;
 	color: #FFFFFF;
-	
+	opacity: 0;
+	animation: style 1s  1s forwards;
+}
+@keyframes style{
+	0%{
+		transform: translateY(50px);
+		opacity: 0;
+		/*display: none;*/
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+.trans{
+	animation: style 1s forwards;
+}
+.trans-1{
+	animation: style 1s 0.5s forwards;
+}
+.trans-2{
+	animation: style 1s 0.7s forwards;
+}
+.trans-3{
+	animation: style 1s 1.5s forwards;
 }
 #banner>.mipad-4>h1>i{
 	color: #f02b29;
 }
 #banner>.mipad-4>span{
+	display: inline-block;
 	color: #FFFFFF;
 	font-size: 12px;
 	line-height: 26px;
+	animation: style 1s  1.3s forwards;
+	opacity: 0;
 }
 #banner>.mipad-4>h2{
 	color: #FFFFFF;
 	font-size: 16px;
+	opacity: 0;
+	animation: style 1s  1.5s forwards;
 }
 #banner>.mipad-4>h2>i{
 	font-size: 12px;
@@ -175,19 +204,25 @@ i{
 #banner>.mipad-4plus>h1{
 	font-size: 30px;
 	color: #FFFFFF;
-	
+	animation: style 1s  1s forwards;
+	opacity: 0;
 }
 #banner>.mipad-4plus>h1>i{
 	color: #f02b29;
 }
 #banner>.mipad-4plus>span{
+	display: inline-block;
 	color: #FFFFFF;
 	font-size: 12px;
 	line-height: 26px;
+	animation: style 1s  1.3s forwards;
+	opacity: 0;
 }
 #banner>.mipad-4plus>h2{
 	color: #FFFFFF;
 	font-size: 16px;
+	opacity: 0;
+	animation: style 1s  1.5s forwards;
 }
 #banner>.mipad-4plus>h2>i{
 	font-size: 12px;
@@ -202,6 +237,7 @@ i{
 	height: 237px;
 	margin-left: 300px;
 	margin-top: 20px;
+	opacity: 0;
 }
 #configuration>.sec>.sec1{
 	height: 109px;
@@ -380,11 +416,15 @@ i{
 }
 #cpu>.snapdragon{
 	margin-left: 270px;
+	opacity: 0;
 }
 #cpu>.snapdragon>h1{
 	font-size: 28px;
 	color: #FFFFFF;
 	padding-top: 98px;
+}
+#cpu>.snapdragon-1{
+	opacity: 0;
 }
 #cpu>.snapdragon-1>p{
 	color: #FFFFFF;
@@ -392,15 +432,20 @@ i{
 	margin-left: 270px;
 	padding-top: 25px;
 }
+#cpu>.snapdragon-2{
+	/*opacity: 0;*/
+}
 #cpu>.snapdragon-2>span{
 	font-size: 16px;
 	color: #FFFFFF;
 	margin-top: 66px;
 	margin-left: 270px;
 	display: inline-block;
+	opacity: 0;
 }
 #cpu>.snapdragon-2>i{
 	font-size: 12px;
+	opacity: 0;
 	color: #FFFFFF;
 	margin-top: 10px;
 	margin-left: 270px;
@@ -424,6 +469,7 @@ i{
 	background-size: 284px;
 	margin-left: 270px;
 	margin-top: 41px;
+	opacity: 0;
 }
 #hife>img{
 	width: 384px;
@@ -439,6 +485,7 @@ i{
 	font-size: 28px;
 	padding-top: 158px;
 	margin-left: 270px;
+	opacity: 0;
 }
 #hife>.aside>span{
 	font-size: 12px;
@@ -447,6 +494,7 @@ i{
 	display: inline-block;
 	line-height: 22px;
 	margin-top: 23px;
+	opacity: 0;
 }
 #hife>p{
 	display: inline-block;
@@ -464,9 +512,11 @@ i{
 	color: #FFFFFF;
 	text-align: center;
 	padding-top: 72px;
+	opacity: 0;
 }
 #network>.wifi{
 	margin-left: 426px;
+	opacity: 0;
 }
 #network>.wifi>span{
 	color: #FFFFFF;
@@ -483,6 +533,7 @@ i{
 	float: left;
 	color: #FFFFFF;
 	text-align: center;
+	opacity: 0;
 }
 #network>.mobile>i{
 	height: 42px;
@@ -504,6 +555,7 @@ i{
 	display: inline-block;
 	color: #FFFFFF;
 	text-align: center;
+	opacity: 0;
 }
 #network>.mobile-LTE>i{
 	height: 42px;
@@ -528,6 +580,7 @@ i{
 	font-size: 28px;
 	text-align: center;
 	padding-top: 72px;
+	opacity: 0;
 }
 #follow>span{
 	text-align: center;
@@ -535,12 +588,15 @@ i{
 	margin-left: 386px;
 	line-height: 22px;
 	margin-top: 12px;
+	opacity: 0;
 }
 #program{
 	height: 358px;
 	background: url(http://i1.mifile.cn/f/i/2018/mipad4p/index_mitv.png) no-repeat;
 	background-size:1366px ; 
 	background-color: #000000;
+	opacity: 0;
+	z-index: -1;
 }
 #split{
 	height: 383px;
@@ -556,6 +612,7 @@ i{
 	margin-left: 334px;
 	margin-top: 78px;
 	float: left;
+	opacity: 0;
 }
 #split>h1{
 	font-size: 20px;
@@ -563,6 +620,7 @@ i{
 	padding-top: 179px;
 	float: left;
 	margin-left: 48px;
+	opacity: 0;
 }
 #miniTv{
 	height: 614px;
@@ -573,6 +631,7 @@ i{
 	font-size: 28px;
 	text-align: center;
 	padding-top: 72px;
+	opacity: 0;
 }
 #miniTv>span{
 	color: #3b3b3b;
@@ -582,6 +641,7 @@ i{
 	margin-left: 506px;
 	line-height: 24px;
 	margin-top: 12px;
+	opacity: 0;
 }
 #miniTv>p{
 	display: inline-block;
@@ -597,6 +657,7 @@ i{
 	font-size: 20px;
 	text-align: center;
 	padding-top: 64px;
+	opacity: 0;
 }
 #satelliteTV>.sateTV{
 	height: 194px;
@@ -725,8 +786,10 @@ i{
 	text-align: center;
 	color: #FFFFFF;
 	padding-top:72px ;
+	opacity: 0;
 }
 #photo>span{
+	opacity: 0;
 	font-size: 12px;
 	color: #eaeaea;
 	display: inline-block;
@@ -744,6 +807,7 @@ i{
 	font-size: 24px;
 	text-align: center;
 	padding-top: 71px;
+	opacity: 0;
 }
 #assistant>span{
 	font-size: 12px;
@@ -753,6 +817,7 @@ i{
 	line-height: 21px;
 	margin-left: 405px;
 	margin-top: 24px;
+	opacity: 0;
 }
 #assistant>p{
 	font-size: 12px;
@@ -761,9 +826,76 @@ i{
 	margin-top: 430px;
 }
 #imgs{
-	height: 580px;
+	height: 581px;
+}
+#imgs>.aside{
+	float:left;
+	height: 133px;
+}
+#imgs>.aside>h1{
+	font-size: 20px;
+	padding-top: 200px;
+	margin-left: 224px;
+}
+#imgs>.aside>h1>i{
+	color: red;
+}
+#imgs>.aside>span{
+	display: inline-block;
+	width: 79px;
+	height: 24px;
+	border: 1px solid #000000;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 212px;
+	margin-top: 15px;
+}
+#imgs>.aside>p{
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 225px;
+	margin-top: 4px;
+}
+#imgs>.aside>em{
+	font-size: 12px;
+	display: inline-block;
+	width: 79px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	margin-left: 212px;
+	margin-top: 5px;
+	border: 1px solid #000000;
+}
+#imgs>.aside>a{
+	width: 134px;
+	height: 30px;
+	background: #ff6724;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;
+	color: #FFFFFF;
+	margin-left: 206px;
+	margin-top: 2px;
 }
 #imgs>.pad4{
 	width: 242px;
-	height: 410px;
+	height: 402px;
+	float: left;
+}
+#imgs>.pad4>img{
+	width: 242px;
+	height: 332px;
+	padding-top:105px ;
+	margin-left: 41px;
+	position: relative;
+}
+
+.arr{
+	background:url(http://i1.mifile.cn/f/i/2018/mipad4p/specs_mipad4_header_r.jpg);
+	width: 242px;
+	height: 332px;
+	padding-top:105px ;
+	margin-left: 41px;
 }
