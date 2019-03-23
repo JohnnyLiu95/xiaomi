@@ -5,87 +5,386 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/xiaoai.css">
     <title>小爱开放平台</title>
 </head>
 
 <body>
-    <!-- 顶部页首 -->
-    <header id="header">
-        <a href="#" class="headerLogo">
-            <img src="../image/xiaoai/logo.png" alt="">
-            小爱开放平台
-        </a>
-        <ul class="headerLeftList">
-            <li>
-                <a href="">技能平台</a>
-                <div class="itemBox">
-                    <ul>
-                        <li><a href="">首页</a></li>
-                        <li><a href="">控制台</a></li>
-                        <li><a href="">新手教程</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <a href="">语音服务</a>
-                <div class="itemBox">
-                    <ul>
-                        <li><a href="">解决方案</a></li>
-                        <li><a href="">智能音箱</a></li>
-                        <li><a href="">智能车载</a></li>
-                        <li><a href="">智能手机</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">全部</a></li>
-                        <li><a href="">智能电视</a></li>
-                        <li><a href="">智能穿戴</a></li>
-                        <li><a href="">儿童设备</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">开发者</a></li>
-                        <li><a href="">控制台</a></li>
-                        <li><a href="">新手指南</a></li>
-                        <li><a href="">常见问题</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <a href="">资源中心</a>
-                <div class="itemBox">
-                    <ul>
-                        <li><a href="">文档中心</a></li>
-                        <li><a href="">常见问题</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <a href="">小爱论坛</a>
-            </li>
-            <li>
-                <a href="">联系我们</a>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNav"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="../image/xiaoai/logo.png" alt="">
+                    <span>小爱开放平台</span>
+                </a>
+            </div>
 
-            </li>
-            <li>
-                <a href="">激励计划</a>
-            </li>
-        </ul>
-        <ul class="headerRightList">
-            <li>
-                <a href="">控制台</a>
-                <div class="itemBox">
-                    <ul>
-                        <li><a href="">技能开发</a></li>
-                        <li><a href="">语音服务</a></li>
-                    </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">技能平台<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">控制台</a></li>
+                            <li><a href="#">新手教程</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">语音服务<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">解决方案</a></li>
+                            <li><a href="#">智能音响</a></li>
+                            <li><a href="#">智能车载</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">资源中心<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">文档中心</a></li>
+                            <li><a href="#">常见问题</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">小爱论坛</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">联系我们</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">激励计划</a>
+                    </li>
+                </ul>
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">控制台<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">技能开发</a></li>
+                            <li><a href="#">语音服务</a></li>
+                        </ul>
+                    </li>
+                    <li><button class="btn btn-default">登陆</button></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <!-- 轮播图 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../image/xiaoai/banner1.png" alt="...">
+                <div class="carousel-caption">
                 </div>
-            </li>
-        </ul>
-        <a href="#" id="loginBtn">登录</a>
-    </header>
+            </div>
+            <div class="item">
+                <img src="../image/xiaoai/banner2.png" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- 人工智能 -->
+    <div id="AI" class="container">
+        <div class="row">
+            <h1>领先的人工智能开放平台</h1>
+            <h2>小爱开放平台把小米在人工智能领域的技术积累对外输出，我们提供多种能力给开发者，帮助开发者实现更多可能</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-3">
+                <img src="../image/xiaoai/AI1.png" alt="">
+                <p class="AItitle">ASR语音识别</p>
+                <p class="AIContent">通过声学模型可以把用户的声音转化为文字，识别率高达97%</p>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <img src="../image/xiaoai/AI2.png" alt="">
+                <p class="AItitle">NLP自然语音处理</p>
+                <p class="AIContent">我们提供可视化的自然语言处理建模工具帮助开发者解析用户的语料</p>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <img src="../image/xiaoai/AI3.png" alt="">
+                <p class="AItitle">海量终端设备用户</p>
+                <p class="AIContent">您的服务和内容将会触达所有搭载小爱语音服务的终端用户</p>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <img src="../image/xiaoai/AI4.png" alt="">
+                <p class="AItitle">丰富的语音能力</p>
+                <p class="AIContent">小爱内置上百种语音能力，并且还在持续增长</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 技能平台 -->
+    <div id="skill">
+        <div class="container">
+            <div class="row">
+                <h1>技能开发平台</h1>
+                <h2>将你的内容，服务，创意变为语音技能</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <img src="../image/xiaoai/skill1.png" alt="">
+                    <p>内容</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="../image/xiaoai/skill2.png" alt="">
+                    <p>服务</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="../image/xiaoai/skill3.png" alt="">
+                    <p>创意</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="../image/xiaoai/skill4.png" alt="">
+                    <p>智能家居</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 完善开发套件 -->
+    <div id="suit" class="container">
+        <h1>完善的开发套件，帮助企业和中小开发者快速低成本创建语音技能</h1>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <img src="../image/xiaoai/suit1.png" alt="">
+                <p class="title">NLP交互模型</p>
+                <p class="myContent">小爱开放平台内置的可视化NLP建模工具，让开发者能够通过非常简单的配置，生成适合自己技能的自然语言处理模型</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="../image/xiaoai/suit2.png" alt="">
+                <p class="title">函数计算</p>
+                <p class="myContent">借助函数计算，开发者可以把代码部署到小爱开放平台，由小爱开放平台提供运行环境和监控等整套服务器资源。开发者只需简单的编程即可开发技能</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="../image/xiaoai/suit3.png" alt="">
+                <p class="title">存储&数据库</p>
+                <p class="myContent">小爱开放平台面向使用函数计算服务的开发者提供数据库和缓存等存储服务（暂时免费），借助这个能力开发者可以非常方便的开发复杂技能</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="../image/xiaoai/suit4.png" alt="">
+                <p class="title">测试工具</p>
+                <p class="myContent">提供在线测试，真机测试，模拟APP测试三种技能测试工具，方便开发者快速高效的进行技能测试</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="service" class="container">
+        <h1>语音服务平台</h1>
+        <h2>让你的产品搭载上小爱同学语音服务</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-4" style="background: rgb(215, 248, 255);">
+                <a href="">
+                    <img src="../image/xiaoai/service1.png" alt="">
+                    <p class="title">音箱</p>
+                    <p class="myContent">你可以直接和音箱对话，利用音箱来帮你完成包括闹钟提醒、智能家居控制、语音游戏等创新功能</p>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4" style="    background: rgb(210, 226, 255)">
+                <a href="">
+                    <img src="../image/xiaoai/service2.png" alt="">
+                    <div class="box">
+                    <p class="title">电视</p>
+                    <p class="myContent">通过语音服务，你可以在电视上利用语音来完成设备控制，影视资源的搜索和播放等操作</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4" style="    background: rgb(255, 224, 214)">
+                <a href="">
+                    <img src="../image/xiaoai/service3.png" alt="">
+                    <p class="title">智能穿戴</p>
+                    <p class="myContent">现在你可以通过小米大脑在小屏设备上体验到智能的语音服务，利用语音服务可以进行音频、信息的检索推荐能</p>
+                </a>
+            </div>
+        </div>
+        <p><a href="">查看更多</a></p>
+    </div>
+
+    <div id="voice">
+        <div  class="container">
+            <h1>一站式智能语音接入服务，提供技术专人对接及权威检测报告</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <img src="../image/xiaoai/voice1.png" alt="">
+                    <p class="title">语音认证</p>
+                    <p class="myContent">拥有国内顶级声学测量设备和声学实验室，模拟多种用户使用的声学场景，保证远场语音设备交互的整体质量，提供权威检测报告及产品改进建议</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="../image/xiaoai/voice2.png" alt="">
+                    <p class="title">快速接入</p>
+                    <p class="myContent">覆盖多种接入方式，打通小米开放平台及小米IoT开发者平台，可快速接入应用程序及智能设备</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="../image/xiaoai/voice3.png" alt="">
+                    <p class="title">语音技能</p>
+                    <p class="myContent">基于产品硬件方案及形态为你推荐适合的语音技能，“小爱同学”拥有近百款自研精品技能，同时设备厂商可以根据需求定制只属于自己设备的技能</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="../image/xiaoai/voice4.png" alt="">
+                    <p class="title">智能家居</p>
+                    <p class="myContent">连接家与未来，接入小爱智能家居语音服务，可控制家中的智能设备，实现声控照明、调温、加湿等，从此彻底解放双手</p>
+                </div>
+            </div>
+        </div>
     
+        </div>
+         <!-- sevice -->
+    <div class="service">
+            <ul>
+                <li><a href="">1小时快修服务</a></li>
+                <li><a href="">7天无理由退货</a></li>
+                <li><a href="">15天免费换货</a></li>
+                <li><a href="">满150元包邮</a></li>
+                <li><a href="">520余家售后网点</a></li>
+            </ul>
+        </div>
+    
+        <!-- link -->
+        <div class="link">
+            <ul>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="">账户管理</a></li>
+                <li><a href="">购物指南</a></li>
+                <li><a href="">订单操作</a></li>
+            </ul>
+            <ul>
+                <li><a href="">服务支持</a></li>
+                <li><a href="">售后政策</a></li>
+                <li><a href="">自助服务</a></li>
+                <li><a href="">相关下载</a></li>
+            </ul>
+            <ul>
+                <li><a href="">线下门店</a></li>
+                <li><a href="">小米之家</a></li>
+                <li><a href="">服务网点</a></li>
+                <li><a href="">授权体验店</a></li>
+            </ul>
+            <ul>
+                <li><a href="">关于小米</a></li>
+                <li><a href="">了解小米</a></li>
+                <li><a href="">加入小米</a></li>
+                <li><a href="">投资者关系</a></li>
+            </ul>
+            <ul>
+                <li><a href="">关注我们</a></li>
+                <li><a href="">新浪微博</a></li>
+                <li><a href="">官方微信</a></li>
+                <li><a href="">联系我们</a></li>
+            </ul>
+            <ul>
+                <li><a href="">特色服务</a></li>
+                <li><a href="">F码通道</a></li>
+                <li><a href="">礼物码</a></li>
+                <li><a href="">防伪查询</a></li>
+            </ul>
+            <div>
+                <h2>400-100-5678</h2>
+                <p>周一至周日 8:00-18:00</p>
+                <p>（仅收市话费）</p>
+                <a href="">联系客服</a>
+            </div>
+        </div>
+    
+        <!-- footer -->
+        <footer>
+            <div>
+                <a href=""></a>
+                <div>
+                    <ul>
+                        <li><a href="">小米商城</a></li>
+                        <li><a href="">MIUI</a></li>
+                        <li><a href="">米家</a></li>
+                        <li><a href="">米聊</a></li>
+                        <li><a href="">多看</a></li>
+                        <li><a href="">游戏</a></li>
+                        <li><a href="">路由器</a></li>
+                        <li><a href="">米粉卡</a></li>
+                        <li><a href="">政企服务</a></li>
+                        <li><a href="">小米天猫店</a></li>
+                        <li><a href="">隐私政策</a></li>
+                        <li><a href="">商城用户协议</a></li>
+                        <li><a href="">账号协议</a></li>
+                        <li><a href="">问题反馈</a></li>
+                        <li><a href="">廉政举报</a></li>
+                        <li><a href="">诚信合规</a></li>
+                        <li><a href="">Select Region</a></li>
+                    </ul>
+                    <p>&copy;
+                        <a href="#">mi.com</a> 京ICP证110507号
+                        <a href="#">京ICP备10046444号</a>
+                        <a href="#">京公网安备11010802020134号 </a>
+                        <a href="#">京网文[2017]1530-131号</a> <br>
+                        <a href="#">（京）网械平台备字（2018）第00005号
+                        </a>
+                        <a href="#">互联网药品信息服务资格证 (京) -非经营性-2014-0090
+                        </a>
+                        <a href="#">营业执照</a>
+                        <a href="#">医疗器械公告</a>
+                        <br>
+                        <a href="#">增值电信业务许可证</a>&nbsp;
+                        网络食品经营备案（京）【2018】WLSPJYBAHF-12 &nbsp;
+                        <a href="#">食品经营许可证</a>
+                        <br>违法和不良信息举报电话：185-0130-1238 <a href="#">知识产权侵权投诉</a>
+                        本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                    </p>
+                    <div class="info-links">
+                        <a href="#"><img src="../image/header&footer/footer1.png" /></a>
+                        <a href="#"><img src="../image/header&footer/footer2.png" /></a>
+                        <a href="#"><img src="../image/header&footer/footer3.png" /></a></a>
+                        <a href="#"><img src="../image/header&footer/footer4.png" /></a></a>
+                        <a href="#"><img src="../image/header&footer/footer5.png" /></a></a>
+                    </div>
+                </div>
+    
+            </div>
+            </div>
+            </div>
+            <img src="../image/header&footer/footer_hot.png" alt="">
+        </footer>
 </body>
 <script src="../js/jquery-1.12.4.js"></script>
+<script src="../js/bootstrap.js"></script>
 <script src="../js/xiaoai.js"></script>
+
 </html>

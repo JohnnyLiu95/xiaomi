@@ -1,0 +1,92 @@
+@charset "UTF-8";
+body { padding-top: 0.1px; }
+
+nav.navbar-default { background: #242424; position: fixed; width: 100%; z-index: 1000; border: 1px solid #242424; }
+nav.navbar-default .dropdown > a { color: #fff; font-size: 14px; line-height: 56px; font-family: \.PingFangSC-Regular; text-decoration: none; padding: 0 20px; cursor: pointer; text-align: center; }
+nav.navbar-default .dropdown > ul { background: #242424; text-align: left; }
+nav.navbar-default .dropdown > ul > li > a { color: #fff; white-space: nowrap; font-size: 14px; line-height: 56px; }
+nav.navbar-default .dropdown > ul > li > a:hover { background: #000 important; }
+nav.navbar-default .btn { width: 78px; height: 30px; border-radius: 15px; color: #fff; background-color: #242424; font-size: 12px; vertical-align: middle; margin-top: 15px; }
+nav.navbar-default .btn:hover { background: #1187ff; border-color: #1187ff; transition: all .25s linear; }
+nav.navbar-default .navbar-brand { margin-right: 20px; padding: 15px; padding-top: 10px; padding-bottom: 10px; }
+nav.navbar-default .navbar-brand img { width: 34px; vertical-align: middle; display: inline-block; }
+nav.navbar-default .navbar-brand span { font-size: 20px; color: #fff; margin-left: 11px; }
+
+#carousel-example-generic { margin-top: 50px; }
+#carousel-example-generic img { max-height: 500px; height: auto; cursor: pointer; }
+
+#AI { background: #fff; padding: 80px 20px; margin: 0 auto; }
+#AI h1 { font-size: 32px; color: #000; text-align: center; line-height: 24px; margin-bottom: 40px; }
+#AI h2 { font-size: 20px; color: #000; text-align: center; line-height: 24px; margin-bottom: 80px; }
+#AI .col-sm-12 { position: relative; min-height: 1px; padding-left: 16px; padding-right: 16px; }
+#AI .col-sm-12 img { width: 100%; }
+#AI .col-sm-12 .AItitle { font-size: 16px; color: #000; line-height: 24px; text-align: left; margin: 40px 0 16px; box-sizing: border-box; }
+#AI .col-sm-12 .AIContent { font-size: 14px; color: #8b8b8b; line-height: 24px; text-align: left; font-weight: 400; box-sizing: border-box; }
+
+#skill { width: 100%; padding: 80px 0 40px; background: #f6f6f6; overflow: hidden; background: #f6f6f6; }
+#skill h1 { font-size: 32px; color: #000; text-align: center; line-height: 24px; margin-bottom: 40px; }
+#skill h2 { font-size: 20px; color: #000; text-align: center; line-height: 24px; margin-bottom: 80px; }
+#skill .col-sm-12 img { width: 100%; }
+#skill .col-sm-12 p { font-size: 16px; color: #000; line-height: 24px; text-align: center; margin: 40px 0 16px; }
+
+#suit { padding: 80px 20px; margin: 0 auto; }
+#suit h1 { font-size: 20px; color: #000; text-align: center; margin-bottom: 60px; }
+#suit .col-sm-6 { text-align: left; }
+#suit .col-sm-6 img { width: 40px; }
+#suit .col-sm-6 .title { font-size: 16px; color: #000; line-height: 24px; text-align: left; margin: 20px 0 16px; }
+#suit .col-sm-6 .myContent { font-size: 14px; color: #8b8b8b; line-height: 24px; text-align: left; }
+
+#service { padding: 80px 20px; margin: 0 auto; }
+#service h1 { font-size: 32px; color: #000; text-align: center; line-height: 24px; margin-bottom: 40px; }
+#service h2 { text-align: center; line-height: 24px; font-size: 20px; color: #000; margin-bottom: 120px; }
+#service > p a { display: block; font-size: 16px; color: #000; text-align: center; line-height: 24px; margin-top: 40px; }
+#service .col-sm-12 a { color: #108ee9; background: transparent; text-decoration: none; outline: none; cursor: pointer; transition: color .3s ease; display: inline-block; }
+#service .col-sm-12 a img { width: 100%; bottom: 0; }
+#service .col-sm-12 a .title { font-size: 16px; color: #000; line-height: 24px; text-align: left; margin: 40px 0 16px; }
+#service .col-sm-12 a .myContent { font-size: 14px; color: #8b8b8b; line-height: 24px; text-align: left; }
+
+#voice { background: #f6f6f6; padding: 80px 20px; margin: 0 auto; }
+#voice h1 { font-size: 20px; color: #000; text-align: center; margin-bottom: 60px; }
+#voice .col-sm-6 { text-align: left; }
+#voice .col-sm-6 img { width: 40px; }
+#voice .col-sm-6 .title { font-size: 16px; color: #000; line-height: 24px; text-align: left; margin: 20px 0 16px; }
+#voice .col-sm-6 .myContent { font-size: 14px; color: #8b8b8b; line-height: 24px; text-align: left; }
+
+/* 靠近页脚一条服务：1小时快修…… */
+.service { height: 80px; border-bottom: 1px solid #bebebe; text-align: center; width: 1226px; margin: 0 auto; }
+.service > ul > li { float: left; height: 80px; line-height: 80px; }
+.service > ul > li > a { padding: 5px 57px 5px 57px; border-right: 1px solid #b5c4ec; font-size: 16px; color: #9d9d9d; }
+.service > ul > li > a:hover { color: #ff6700; }
+.service > ul > li:first-of-type > a { padding-left: 123px; }
+.service > ul > li:last-of-type > a { border-right: 0; }
+
+/* 页脚链接 */
+.link { height: 210px; padding: 51px 0 0 0px; box-sizing: border-box; width: 1226px; margin: 0 auto; }
+.link > ul { float: left; margin-right: 102px; }
+.link > ul > li { line-height: 30px; }
+.link > ul > li > a { color: #757575; }
+.link > ul > li > a:hover { color: #ff6700; }
+.link > ul > li:first-of-type { line-height: 14px; margin-bottom: 24px; }
+.link > ul > li:first-of-type > a { color: #000; font-size: 14px; }
+.link > div { float: right; text-align: center; height: 120px; box-sizing: border-box; padding: 0 60px 0 60px; border-left: 1px solid #bebebe; }
+.link > div > h2 { color: #ff6700; font-weight: normal; font-size: 22px; line-height: 16px; margin: 4px 0 12px 0; }
+.link > div > p { line-height: 20px; color: #616161; }
+.link > div > a { display: inline-block; margin-top: 13px; width: 122px; height: 32px; line-height: 32px; box-sizing: border-box; border: 1px solid #ff6700; color: #ff6700; }
+.link > div > a:hover { background: #ff6700; color: #fff; transition: all 0.25s linear; }
+
+/* 页脚 */
+footer { height: 79px; background: #fafafa; }
+footer > div { width: 1226px; margin: 0 auto; }
+footer > div > a { float: left; margin: 15px 10px 0 0; width: 55px; height: 55px; overflow: hidden; background: #ff6700 url(../image/header&footer/mi-logo.png) 3px 4px no-repeat; }
+footer > div > div { float: left; margin-top: 15px; }
+footer > div > div > ul { height: 12px; }
+footer > div > div > ul > li { float: left; padding: 0 3px 0 3px; border-right: 1px solid #b0b0b0; }
+footer > div > div > ul > li > a { color: #757575; }
+footer > div > div > ul > li:first-of-type { padding-left: 0; }
+footer > div > div > ul > li:last-of-type { border-right: 0; }
+footer > div > div > p { color: #b0b0b0; width: 1159px; height: 72px; font-size: 12px; line-height: 18px; margin-top: 6px; }
+footer > div > div > .info-links { height: 28px; margin: 4px 0 0; }
+footer > div > div > .info-links img { width: auto; height: 28px; margin-left: 0px; margin-bottom: 15px; }
+footer > img { display: block; margin: 0 auto; }
+
+/*# sourceMappingURL=xiaoai.css.map */
