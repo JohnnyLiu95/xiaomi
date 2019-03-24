@@ -825,73 +825,55 @@ i{
 	text-align: center;
 	margin-top: 430px;
 }
-#imgs{
-	height: 581px;
-}
-#imgs>.aside{
-	float:left;
-	height: 133px;
-}
-#imgs>.aside>h1{
-	font-size: 20px;
-	padding-top: 200px;
-	margin-left: 224px;
-}
-#imgs>.aside>h1>i{
-	color: red;
-}
-#imgs>.aside>span{
-	display: inline-block;
-	width: 79px;
-	height: 24px;
-	border: 1px solid #000000;
-	line-height: 24px;
-	font-size: 12px;
-	text-align: center;
-	margin-left: 212px;
-	margin-top: 15px;
-}
-#imgs>.aside>p{
-	display: inline-block;
-	font-size: 12px;
-	margin-left: 225px;
-	margin-top: 4px;
-}
-#imgs>.aside>em{
-	font-size: 12px;
-	display: inline-block;
-	width: 79px;
-	height: 24px;
-	line-height: 24px;
-	text-align: center;
-	margin-left: 212px;
-	margin-top: 5px;
-	border: 1px solid #000000;
-}
-#imgs>.aside>a{
-	width: 134px;
-	height: 30px;
-	background: #ff6724;
-	text-align: center;
-	line-height: 30px;
-	display: inline-block;
-	color: #FFFFFF;
-	margin-left: 206px;
-	margin-top: 2px;
-}
-#imgs>.pad4{
-	width: 242px;
-	height: 402px;
-	float: left;
-}
-#imgs>.pad4>img{
-	width: 242px;
-	height: 332px;
-	padding-top:105px ;
-	margin-left: 41px;
-	position: relative;
-}
 
+
+#imgs{height:581px;margin:0 auto; }
+#imgs>.leftSide,#imgs>.rightSide{float:left;height:457px;margin-top:66px;}
+#imgs>.leftSide>div,#imgs>.rightSide>div{float:left;}
+#imgs .proShow{width:309px;height:458px;}
+#imgs .proShow>.myImg{position: relative;margin:0 32px;}
+#imgs .leftSide{margin-left:220px;}
+#imgs .proShow>.myImg>img{position: absolute;top:0;left:0;}
+#imgs .leftSide .proShow>.myImg{width:244px;height:371px;}
+#imgs .leftSide .proShow>.myImg>img{top:20px;}
+#imgs .rightSide .proShow>.myImg{width:285px;height:371px;}
+#imgs .mytext{padding-top:132px;}
+#imgs .mytext>.title{font-size: 24px;font-weight:normal;line-height: 1.2em;color: #191919;}
+#imgs .mytext>.version{height: 1.88em;width: 6.44em;border: 1px solid #191919;border-radius: 2px;color: #191919;font-size: .18em;text-align: center;line-height: 1.88em;}
+#imgs .mytext>.title span{color:#ff3631;}
+#imgs .mytext>.price{text-align:center;font-size: .23em;width: 5em;height: 1.4em;line-height: 1.4em;color: #191919; padding-top: 0.22em;}
+#imgs .rightSide .mytext>.price{width:100%;}
+#imgs .mytext>.buyNow{width: 11.18em;height: 2.5em;font-size: .16em;margin: 1.745em auto 0;color: #fff;border:0;background: #ff6724;text-align: center;font-weight: bold;line-height: 2.5em;display: block;}
+#imgs .choice{padding: .28em 0 0 0px;width: 132px;margin: 10px auto 0;}
+#imgs .choice>div{float:left;margin-left: 24px;}
+#imgs .choice>.black:hover>a{border-color:#414141;}
+#imgs .choice>.black>a{border-color:#414141;}
+#imgs .choice>.golden:hover>a{border-color:#ffd9d9;}
+#imgs .goldenImg{display: none;}
+#imgs .choice>.black>a>span{display:block;background: #414141;margin: 2px;width: 18px;height: 18px;border-radius: 50%;}
+#imgs .choice>.golden>a>span{display:block;background: #ffd9d9;margin: 2px;width: 18px;height: 18px;border-radius: 50%;}
+#imgs .choice>div>a{display: block;width: 22px;height: 22px;border: 2px solid #f9f9f9;border-radius: 50%;}
+#imgs .choice>div>p{    text-align: center;font-size: 14px;color: #333333;padding-top: 1em;}
+
+
+#para{
+	position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 0;
+	padding-bottom: 13.94531%;
+	width: 100%;
+}
+#para>img{width: 100%;display: block;}
+#para>a{    position: absolute;font-size: 22px;display: block;top: 3.36em;right: 10.89em;width: 13.5em;height: 1.56em;line-height: 1.56em;color: #250c0d;}
+
+
+#note{width:100%;    background: #fafafa;
+    font-size: .14em;
+    padding: 5.4em 0 6.3em;
+	line-height: 1.54em
+}
+#note>div{width:1134px;margin:0 auto;opacity: .2;}
 .arr{
 	background:url(http://i1.mifile.cn/f/i/2018/mipad4p/specs_mipad4_header_r.jpg);
 	width: 242px;

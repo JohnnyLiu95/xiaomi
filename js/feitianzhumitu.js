@@ -84,30 +84,47 @@ $("li>.myProShow,li>.myComment,li>.myAsk").bind("click",function(){
 	$(this).addClass("active");
 	$(this).parent().siblings().children("a").removeClass("active")
 })
-console.log($("#list").offset().top)
-console.log($("#evaluate").offset().top)
-console.log($("#problem").offset().top)
+//console.log($("#list").offset().top)
+//console.log($("#evaluate").offset().top)
+//console.log($("#problem").offset().top)
 
 //最底下轮播图部分
 $(function(){
-	$("#buyAgain>div>dl").hover(function(){
-		$("#buyAgain>div>dl>dd:eq(2)>a").html("加入购物车");
-//		$("#buyAgain>div>dl").css("background","#fff");
-	})
+	$("#buyAgain>div>div:eq(1)>span").click(function(){
+		$("#buyAgain>div>div:eq(1)>span").removeClass();
+		$(this).addClass("active");
+		var ind=$(this).index();
+//		console.log(ind);
+		$("#buyAgain>div>div:eq(0)").animate({
+			"margin-left":-(1226*ind)+"px"
+		});
+	});
 	
-	$.get("../json/feitianzhumitu.json",function(data){
-	$("#buyAgain>div").html("");
-	var buyAgainArr=data.buyAgain;
-	for(var item of buyAgainArr){
-		$("#buyAgain>div").append(`<dl>
-					<dt><img src="`+item["imgSrc"]+`" /></dt>
-					<dd><a href="">`+item["title"]+`</a></dd>
-					<dd>`+item["price"]+`</dd>
-					<dd><a href="">`+item["supportNum"]+`</a></dd>
-				</dl>
-		`);
-	}
-})
+	$("#buyAgain>div>div>dl:eq(0)").hover(function(){
+		$("#buyAgain>div>div>dl:eq(0)>dd:eq(2)>a").text("加入购物车");
+	},function(){
+		$("#buyAgain>div>div>dl:eq(0)>dd:eq(2)>a").text("629人好评");
+	});
+	$("#buyAgain>div>div>dl:eq(1)").hover(function(){
+		$("#buyAgain>div>div>dl:eq(1)>dd:eq(2)>a").text("加入购物车");
+	},function(){
+		$("#buyAgain>div>div>dl:eq(1)>dd:eq(2)>a").text("14.3万人好评");
+	});
+	$("#buyAgain>div>div>dl:eq(2)").hover(function(){
+		$("#buyAgain>div>div>dl:eq(2)>dd:eq(2)>a").text("加入购物车");
+	},function(){
+		$("#buyAgain>div>div>dl:eq(2)>dd:eq(2)>a").text("1.3万人好评");
+	});
+	$("#buyAgain>div>div>dl:eq(3)").hover(function(){
+		$("#buyAgain>div>div>dl:eq(3)>dd:eq(2)>a").text("加入购物车");
+	},function(){
+		$("#buyAgain>div>div>dl:eq(3)>dd:eq(2)>a").text("1万人好评");
+	});
+	$("#buyAgain>div>div>dl:eq(4)").hover(function(){
+		$("#buyAgain>div>div>dl:eq(4)>dd:eq(2)>a").text("加入购物车");
+	},function(){
+		$("#buyAgain>div>div>dl:eq(4)>dd:eq(2)>a").text("6813人好评");
+	});
 })
 
 
