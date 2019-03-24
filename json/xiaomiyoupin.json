@@ -1,103 +1,147 @@
 {
 "dailyNew":[{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/a2fcf119693b4001b548b7a83918ce75.png",
+	    "imgSrc":"../image/service&youpin&wireless/dailyNew01.png",
 	    "title":"每日新品",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/1766dd0b93ac9f7efbd63f6ccd711275.png",
+	    "imgSrc":"../image/service&youpin&wireless/dailyNew02.png",
 	    "title":"小米众筹",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/dd28e3a2eb7bf12ad86af7bc2b1bca2e.png",
+	    "imgSrc":"../image/service&youpin&wireless/dailyNew03.png",
 	    "title":"限时抢购",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/da7130d70889f2b689cb2dfda1507374.png",
+	    "imgSrc":"../image/service&youpin&wireless/dailyNew04.png",
 	    "title":"热销榜单",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/b734341dd39ac18c93e9f79e89dfa863.png",
+	    "imgSrc":"../image/service&youpin&wireless/dailyNew05.png",
 	    "title":"随便逛逛",
 	    "href":"#"
 	}],
 "recommend":[{
-	    "imgSrc":"https://img.youpin.mi-img.com/youpinoper/ed7a9f0f6ddf4cc9e89d3f6d56cea923.png?id=&w=420&h=280",
+	    "imgSrc":"../image/service&youpin&wireless/recommend01.png",
 	    "title":"理想生活家",
 	    "des":"专区2件9折 爆品限时直降",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/youpinoper/de8a5638c1e35efec29ea7e6c62115c6.png?id=&w=420&h=280",
+	    "imgSrc":"../image/service&youpin&wireless/recommend02.png",
 	    "title":"爆款2件9折",
 	    "des":"踏春出行好时节",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/youpinoper/b6133805dd3a1cf399436204117724f8.png?id=&w=420&h=280",
+	    "imgSrc":"../image/service&youpin&wireless/recommend03.png",
 	    "title":"洗护佳品焕新貌",	    
 	    "des":"实惠 满199减20",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/youpinoper/f9b4b6741e540c680019f93efd04d74e.png?id=&w=420&h=280",
+	    "imgSrc":"../image/service&youpin&wireless/recommend04.png",
 	    "title":"恋爱必修课",	    
 	    "des":"全场最高直降1060元",
 	    "href":"#"
 	}],
 "zhongchou":{
 	"0":[{
-		"imgSrc":"https://img.youpin.mi-img.com/800_pic/6eadb61d6522743c35e85c3c767ff6f3.png",
-	    "title":"饭小二煮饭机器人R3",
-	    "des":"自动加米洗米，自定义口感，多种...",
-	    "price":"￥849",
-	    "numSupport":"2628",
-	    "hot":"爆",
-	    "percentage":"525%",
+		"imgSrc":"../image/service&youpin&wireless/zhongchou01.png",
+	    "title":"柒小佰儿童滑步车",
+	    "des":"简约设计|铝合金轻量车身|全车无...",
+	    "price":"￥399",
+	    "numSupport":"1062",
+	    "hot":"热",
+	    "percentage":"106%",
 	    "href":"#"
 	}],
 	"1":[{
-		"imgSrc":"https://img.youpin.mi-img.com/800_pic/c6caf7ba6543742ea68b486fe8ed584e.png",
-	    "title":"法乐洗烘套装",
-	    "price":"￥1999",
-	    "numSupport":"546",
+		"imgSrc":"../image/service&youpin&wireless/zhongchou02.png",
+	    "title":"Yeelight星轨吸顶灯套系",
+	    "des":"",
+	    "price":"￥399起",
+	    "numSupport":"903",
 	    "hot":"热",
-	    "percentage":"273%",
+	    "percentage":"180%",
 	    "href":"#"
 	}],
 	"2":[{
-		"imgSrc":"https://img.youpin.mi-img.com/800_pic/f6f5fb21528a504f9847b36db8603303.png",
-	    "title":"儿童智能存钱罐",
-	    "price":"￥399",
-	    "numSupport":"3013",
-	    "hot":"火",
-	    "percentage":"301%",
+		"imgSrc":"../image/service&youpin&wireless/zhongchou03.png",
+	    "title":"饭小二煮饭机器人R3",
+	    "des":"",
+	    "price":"￥849",
+	    "numSupport":"3109",
+	    "hot":"爆",
+	    "percentage":"621%",
 	    "href":"#"
 	}]
 	},
 "buy":[{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/43d297b5569ea507723bc1fcfff1892c.jpg",
-	    "title":"蓄热保暖空军夹克",
-	    "price":"￥129",
-	    "original-price":"￥239",
-	    "discount":"5.3折",
+	    "imgSrc":"../image/service&youpin&wireless/buy01.png",
+	    "title":"峰米WEMAX ONE激光投影...",
+	    "price":"￥9999起",
+	    "original-price":"￥12999",
+	    "discount":"7.6折",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/c0bbdac4f2211c11b8735222e42f00d8.jpg",
-	    "title":"知味轩每日坚果30日装750G",
-	    "price":"￥99",
-	    "original-price":"￥138",
-	    "discount":"7.1折",
+	    "imgSrc":"../image/service&youpin&wireless/buy02.png",
+	    "title":"小米8 屏幕指纹版",
+	    "price":"￥2899起",
+	    "original-price":"￥3599",
+	    "discount":"8折",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/pic_square/102842_2ef7619a6e4b9e965edaa4db1eaebe15.jpg",
-	    "title":"8H天然乳胶舒压按摩枕Z3",
-	    "price":"￥189",
-	    "original-price":"￥239",
-	    "discount":"7.9折",
+	    "imgSrc":"../image/service&youpin&wireless/buy03.png",
+	    "title":"土耳其进口立体轻奢地毯",
+	    "price":"￥759",
+	    "original-price":"￥899",
+	    "discount":"8.4折",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/b82318ead55f9c4ae22e32787e9d9bb5.jpg",
-	    "title":"声波洁面仪",
-	    "price":"￥89",
-	    "original-price":"￥109",
-	    "discount":"8.1折",
+	    "imgSrc":"../image/service&youpin&wireless/buy04.png",
+	    "title":"便携式果蔬料理机",
+	    "price":"￥169",
+	    "original-price":"￥199",
+	    "discount":"8.4折",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/buy05.png",
+	    "title":"轻质运动德比鞋（男女同款）",
+	    "price":"￥309起",
+	    "original-price":"￥349",
+	    "discount":"8.8折",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/buy06.png",
+	    "title":"寻本可溯源全价猫粮",
+	    "price":"￥153.9起",
+	    "original-price":"￥169",
+	    "discount":"",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/buy07.png",
+	    "title":"云米互联网洗烘一体机8kg",
+	    "price":"￥2299",
+	    "original-price":"￥2599",
+	    "discount":"8.8折",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/buy08.png",
+	    "title":"常温纯牛奶 两提装",
+	    "price":"￥79起",
+	    "original-price":"￥89",
+	    "discount":"8.8折",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/buy09.png",
+	    "title":"103°人体工学双人床",
+	    "price":"￥1599起",
+	    "original-price":"￥1799",
+	    "discount":"8.8折",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/buy10.png",
+	    "title":"眼部冷热按摩仪",
+	    "price":"￥329起",
+	    "original-price":"￥369",
+	    "discount":"8.9折",
 	    "href":"#"
 	}],
 "day":[{
@@ -210,32 +254,65 @@
 	    "href":"#"
 	}],
 "appliances":[{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/2718c1dc43de3e088c18acd71d4e52bb.png?t=webp",
+	    "imgSrc":"../image/service&youpin&wireless/appliances01.png",
 	    "des":"送安装服务，400加仑大流量，R...",
 	    "discount":"买赠",
 	    "title":"小米净水器(厨下式)",
 	    "price":"￥1999",
 	    "href":"#"
 	},{
-	    "imgSrc":"http://img.youpin.mi-img.com/800_pic/100242_1lfbpr4kro77t.png?t=webp",
+	    "imgSrc":"../image/service&youpin&wireless/appliances02.png",
 	    "des":"即热式恒温供水，舒适冲洗/妇洗...",
 	    "discount":"",
 	    "title":"智米智能马桶盖",
 	    "price":"￥899",
 	    "href":"#"
 	},{
-	    "imgSrc":"https://img.youpin.mi-img.com/800_pic/ba043147140e1cf331fe6426ba81c8a1.png?t=webp",
+	    "imgSrc":"../image/service&youpin&wireless/appliances03.png",
 	    "des":"持续暖风烘干，30KG承重能力，...",
 	    "discount":"限时购",
 	    "title":"邦先生智能晾衣机",
 	    "price":"￥999",
 	    "href":"#"
 	},{
-	   "imgSrc":"https://img.youpin.mi-img.com/800_pic/8dbe7fce880560b1c7e410c67bb4a2cf.png?t=webp",
+	   "imgSrc":"../image/service&youpin&wireless/appliances04.png",
 	    "des":"10万转无刷电机，20000Pa风压，...",
 	    "discount":"直降200元",
 	    "title":"方圆之间三室一厅套装",
 	    "price":"￥1199",
+	    "href":"#"
+	}],
+"phone":[{
+	    "imgSrc":"../image/service&youpin&wireless/phone01.png",
+	    "des":"双频GPS，骁龙845处理器，红外...",
+	    "discount":"直降400元",
+	    "title":"小米8",
+	    "price":"2299起",
+	    "choice":"4色可选",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/phone02.png",
+	    "des":"后置1200万 AI双摄 / 12nm八核...",
+	    "discount":"直降70元",
+	    "title":"红米6",
+	    "price":"￥729起",
+	    "choice":"4色可选",
+	    "href":"#"
+	},{
+	    "imgSrc":"../image/service&youpin&wireless/phone03.png",
+	    "des":"潮流镜面渐变色 / 索尼2400万自...",
+	    "discount":"小米8青春版",
+	    "title":"邦先生智能晾衣机",
+	    "price":"￥1299起",
+	    "choice":"3色可选",
+	    "href":"#"
+	},{
+	   "imgSrc":"../image/service&youpin&wireless/phone04.png",
+	    "des":"12nm高性能处理器 / 5.45 小巧...",
+	    "discount":"直降50元",
+	    "title":"红米6A",
+	    "price":"￥549起",
+	    "choice":"4色可选",
 	    "href":"#"
 	}]
 }

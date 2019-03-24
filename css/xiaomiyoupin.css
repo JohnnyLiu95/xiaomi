@@ -66,7 +66,7 @@
 .rightBtn{right:0;!important}
 .main2{position:relative;}
 
-/*每日新品*/
+/*每日新品dailyNew*/
 #dailyNew>div{height: 188px;border-bottom: 1px solid #e7e7e7;/*background: deepskyblue;*/}
 #dailyNew>div img{width: 80px;height: 80px;}
 #dailyNew>div>dl{float: left;width: 130px;height: 121px;text-align: center;margin-right: 107px;margin-top: 50px;}
@@ -96,6 +96,7 @@
 #zhongchou>div>.sec1>h2>span{font-size: 12px;color: #999999;line-height: 80px;margin-left: 13px;}
 #zhongchou>div>.sec1>span{float: right;font-size: 14px;color: #999;cursor: pointer;margin: 50px 10px 0 0;}
 #zhongchou>div>.sec1>span:hover{color: #845F3F;}
+
 #zhongchou>div>.sec2{float: left;}
 #zhongchou>div>.sec2>.div1{width: 537px;height: 210px;background-color: rgb(249, 243, 233);cursor: pointer;float: left;margin-right: 5px;}
 #zhongchou>div>.sec2>.div1>img{float: right; width: 215px;height: 215px;margin: -15px 15px 0 0; }
@@ -107,7 +108,7 @@
 #zhongchou>div>.sec2>.div2>img{width: 537px;height: 3px; float: left;}
 #zhongchou>div>.sec2>.div2>p{color: #9999a5;font-size: 14px;float: left;margin: 8px 3px 0 21px;}
 #zhongchou>div>.sec2>.div2>p>span{color: #a92112;display: inline-block;margin-right: 7px;font-weight: bold;}
-#zhongchou>div>.sec2>.div2>span{float: left; width: 25px;height: 18px;background: #ff8030;font-size: 13px;color: #fff;text-align: center;margin-top: 8px;}
+#zhongchou>div>.sec2>.div2>span{float: left; width: 25px;height: 18px;background: #fecf00;font-size: 13px;color: #fff;text-align: center;margin-top: 8px;}
 #zhongchou>div>.sec2>.div2>em{float: right;color: #a92112;font-size: 14px;margin: 8px 16px 0 0;font-weight: bold;}
 
 #zhongchou>div>.sec3,#zhongchou>div>.sec4{float: left;}
@@ -119,9 +120,9 @@
 #zhongchou>div>.sec3>.div2,#zhongchou>div>.sec4>.div2{width: 266px;height: 33px;/*background: yellow;*/cursor: pointer;}
 #zhongchou>div>.sec3>.div2>img,#zhongchou>div>.sec4>.div2>img{width: 266px;float: left;}
 #zhongchou>div>.sec3>.div2>p,#zhongchou>div>.sec4>.div2>p{color: #9999a5;font-size: 14px;float: left;margin: 8px 3px 0 21px;}
-#zhongchou>div>.sec3>.div2>p>span,#zhongchou>div>.sec4>.div2>p>span{color: #a92112;display: inline-block;margin-right: 7px;}
-#zhongchou>div>.sec3>.div2>span,#zhongchou>div>.sec4>.div2>span{float: left; width: 25px;height: 18px;background: #f98700;font-size: 13px;color: #fff;text-align: center;margin-top: 8px;}
-#zhongchou>div>.sec3>.div2>em,#zhongchou>div>.sec4>.div2>em{float: right;color: #a92112;font-size: 14px;margin: 8px 16px 0 0;}
+#zhongchou>div>.sec3>.div2>p>span,#zhongchou>div>.sec4>.div2>p>span{color: #a92112;display: inline-block;margin-right: 7px;font-weight: bold;}
+#zhongchou>div>.sec3>.div2>span,#zhongchou>div>.sec4>.div2>span{float: left; width: 25px;height: 18px;background: #fecf00;font-size: 13px;color: #fff;text-align: center;margin-top: 8px;}
+#zhongchou>div>.sec3>.div2>em,#zhongchou>div>.sec4>.div2>em{float: right;color: #a92112;font-size: 14px;margin: 8px 16px 0 0;font-weight: bold;}
 #zhongchou>div>.sec4>.div1{margin-right: 0;}
 
 /*限时购*/
@@ -135,17 +136,19 @@
 #buy>div>.main1>span{float: right;font-size: 14px;color: #999;cursor: pointer;margin: 60px 10px 0 0;}
 #buy>div>.main1>span:hover{color: #845F3F;}
 
-#buy>div>.main2>div{float: left;margin-right: 5px;text-align: center;line-height: 48px;cursor: pointer;}
-#buy>div>.main2>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;}
-#buy>div>.main2>div:last-of-type{margin-right: 0;}
-#buy>div>.main2>div>div{position: relative;}
-#buy>div>.main2>div>div>img{width: 266px;height: 266px;}
-#buy>div>.main2>div>p.p1{color: #333333;font-size: 18px;}
-#buy>div>.main2>div>p.p2{color: #a92112;font-size: 16px;margin-top: -10px;}
-#buy>div>.main2>div>p.p2>span{color: #333333;font-size: 10px;text-decoration: line-through;display: inline-block;margin-left: 6px;}
-#buy>div>.main2>div>div>span{position: absolute;left: 0;bottom: 0;width: 58px;height: 25px;background: #ec5b55;color: #fff;line-height: 25px;border-bottom-right-radius: 15px;border-top-right-radius: 15px;}
+#buy>div>.main2{width: 1080px;height: 353px;overflow: hidden; position:relative;/*background: pink;*/}
+#buy>div>.main2>div{width:2710px;height: 353px;/*background: thistle;*/}
+#buy>div>.main2>div>div{width: 266px;height: 353px;float: left;margin-right: 5px;text-align: center;line-height: 48px;cursor: pointer;transition: all 0.5s linear;position: relative;}
+#buy>div>.main2>div>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;transition: all 0.5s linear;}
+/*#buy>div>.main2>div>div:last-of-type{margin-right: 0;}*/
+#buy>div>.main2>div>div>div>img{width: 266px;height: 266px;}
+#buy>div>.main2>div>div>p.p1{color: #333333;font-size: 18px;}
+#buy>div>.main2>div>div>p.p2{color: #a92112;font-size: 16px;margin-top: -10px;}
+#buy>div>.main2>div>div>p.p2>span{color: #333333;font-size: 10px;text-decoration: line-through;display: inline-block;margin-left: 6px;}
+#buy>div>.main2>div>div>div{position: relative;}
+#buy>div>.main2>div>div>div>span{position: absolute;left: 0;bottom: 0;width: 58px;height: 25px;background: #ec5b55;color: #fff;line-height: 25px;border-bottom-right-radius: 15px;border-top-right-radius: 15px;}
 
-/*每日新品+热门(公共样式)*/
+/*每日新品day+热门(公共样式)*/
 #day>div{height: 516px;}
 #day>div>.main1{height: 116px;/*background: yellow;*/}
 #day>div>.main1>h2{height: 116px; font-size: 28px;color: #333333;font-weight: normal; line-height: 116px;float: left;}
@@ -155,8 +158,8 @@
 
 #day>div>.main2{height: 400px;width: 1080px;overflow: hidden; position:relative;/*background: pink;*/}
 #day>div>.main2>div{width: 1626px;height: 400px;/*background: thistle;*/}
-#day>div>.main2>div>div{width: 266px;height: 400px;float: left;margin-right: 5px;cursor: pointer;text-align: center;position: relative;}
-#day>div>.main2>div>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;}
+#day>div>.main2>div>div{width: 266px;height: 400px;float: left;margin-right: 5px;cursor: pointer;text-align: center;position: relative;transition: all 0.5s linear;border-left-color; border-left-color;}
+#day>div>.main2>div>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;transition: all 0.5s linear;}
 #day>div>.main2>div>div>div>img{width: 266px;height: 266px;}
 /*#day>div>.main2>div>.main2_4,#day>div>.main2>div>.main2_5{margin-right: 0;}*/
 #day>div>.main2>div>div>.p1{color: #333333;font-size: 18px;height: 18px;line-height: 18px;margin: 15px 0 14px 0;}
@@ -174,9 +177,9 @@
 
 #hot>div>.main2{height: 400px;width: 1080px;overflow: hidden; position:relative;/*background: pink;*/}
 #hot>div>.main2>div{width: 1626px;height: 400px;/*background: thistle;*/}
-#hot>div>.main2>div>div{width: 266px;height: 400px;float: left;margin-right: 5px;cursor: pointer;text-align: center;position: relative;}
+#hot>div>.main2>div>div{width: 266px;height: 400px;float: left;margin-right: 5px;cursor: pointer;text-align: center;position: relative;transition: all 0.5s linear;}
 #hot>div>.main2>div>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;}
-#hot>div>.main2>div>div>div>img{width: 266px;height: 266px;}
+#hot>div>.main2>div>div>div>img{width: 266px;height: 266px;transition: all 0.5s linear;}
 /*#hot>div>.main2>div>.main2_4,#day>div>.main2>div>.main2_5{margin-right: 0;}*/
 #hot>div>.main2>div>div>.p1{color: #333333;font-size: 18px;height: 18px;line-height: 18px;margin: 15px 0 14px 0;}
 #hot>div>.main2>div>div>.p2{color: #666666;font-size: 12px;margin-bottom: 18px;height: 12px; line-height: 12px;}
@@ -189,27 +192,42 @@
 .home>div>.main1{height: 111px; font-size: 26px;color: #333333;height: 26px; line-height: 26px;/*background: yellow;*/padding: 61px 0 24px 0;}
 .home>div>.main1>span{float: right;font-size: 12px; color: #999999;margin-right: 10px;cursor: pointer;}
 .home>div>.main1>span:hover{color: #845F3F;}
-.home>div>.main2>div{width: 264px;height: 348px;border: 1px solid #e7e7e7; margin-right: 5px;float: left;}
-.home>div>.main2>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;}
-.home>div>.main2>div.main2_4{margin-right: 0;}
-.home>div>.main2>div>div:first-of-type{height: 236px;text-align: center; /*background: greenyellow;*/}
+
+.home>div>.main2{width: 1085px;height: 350px;margin-left: -5px;}
+.home>div>.main2>div{width: 264px;height: 348px;border: 1px solid #e7e7e7; margin-right: 5px;float: left;transition: all 0.5s linear;position: relative;}
+.home>div>.main2>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;transition: all 0.5s linear;}
+/*.home>div>.main2>div.main2_4{margin-right: 0;}*//*不用设置最后一个margin-right，可以给整体的div设置margin-left*/
+.home>div>.main2>div>div:first-of-type{height: 236px;text-align: center;/*position: relative;*/ /*background: greenyellow;*/}
 .home>div>.main2>div>div:first-of-type>img{width: 150px;height: 150px;margin-top: 10px;}
 .home>div>.main2>div>div:first-of-type>p{color: #845f3f;font-size: 14px;margin-top: 30px;}
-.home>div>.main2>div>div:last-of-type{height: 112px;background: #f8f8f8;text-align: center;/*position: relative;*/}
-.home>div>.main2>div>div:last-of-type>span{display: inline-block;width: 78px;height: 20px;background: #d97070;color: #fff;margin: 15px 0 14px 0;}
+
+.home>div>.main2>div>div:last-of-type{height: 112px;background: #f8f8f8;text-align: center;}
+.home>div>.main2>div>div:last-of-type>span:first-of-type{display: inline-block; width: 124px;height: 49px;/*background: red;*/}
+.home>div>.main2>div>div:last-of-type>span:last-of-type{width: 124px;height: 49px;/*background: red;*/}
+.home>div>.main2>div>div:last-of-type>span:first-of-type>a{display: inline-block;width: 78px;height: 20px;background: #d97070;color: #fff;margin: 15px 0 14px 0;}
+.home>div>.main2>div>div:last-of-type>span:last-of-type>a{display: inline-block;width: 78px;height: 20px;background: #d97070;color: #fff;}
+
 .home>div>.main2>div>div:last-of-type>p{color: #333333;font-size: 18px;height: 18px;line-height: 18px;margin-bottom: 17px;}
 .home>div>.main2>div>div:last-of-type>em{color: #a92112;font-size: 16px;font-weight: bold;}
 .home>div>.main2>div>div:last-of-type>em>span{font-size: 12px;}
+.home>div>.main2>div>p{position: absolute;padding: 3px;left: 8px;top:8px;width:16px;line-height: 18px;font-size: 15px;text-align: center;word-wrap: break-word;border-radius: 4px;border:1px solid #9f8052;background-color: transparent;color: #9f8052;cursor: pointer;}
 
+/*手机有一个额外的样式（如4色可选）*/
+.home:nth-of-type(3)>div>.main2>div{position: relative;}
+/*.home:nth-of-type(3)>div>.main2>div>div:last-of-type{position: relative;}*/
+.home:nth-of-type(3)>div>.main2>div>div:last-of-type>div{position: absolute;padding: 3px;left: 8px;top:8px;width:16px;line-height: 18px;font-size: 15px;text-align: center;word-wrap: break-word;border-radius: 4px;border:1px solid #9f8052;background-color: transparent;color: #9f8052;cursor: pointer;}
+
+/*智能*/
+.home:nth-of-type(5)>div>.main2>div>div>div:nth-of-type(2)>span{float: left; background: #d96b6c;width: 264px;height: 49px;}
 
 /*推荐专属*/
-#self-recommend>div{height: 7271px;/*background: deepskyblue;*/}
+#self-recommend>div{height: 6921px;/*background: deepskyblue;*/}
 #self-recommend>div>.main1{height: 111px; font-size: 26px;color: #333333;height: 26px; line-height: 26px;/*background: yellow;*/padding: 61px 0 24px 0;}
 #self-recommend>div>.main1>span{float: right;font-size: 12px; color: #999999;margin-right: 10px;cursor: pointer;}
 #self-recommend>div>.main1>span:hover{color: #845F3F;}
 
-#self-recommend>div>.main2>div{width: 264px;height: 348px;border: 1px solid #e7e7e7; margin-right: 5px;float: left;margin-bottom: 5px;}
-#self-recommend>div>.main2>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;}
+#self-recommend>div>.main2>div{width: 264px;height: 348px;border: 1px solid #e7e7e7; margin-right: 5px;float: left;margin-bottom: 5px;transition: all 0.5s linear;}
+#self-recommend>div>.main2>div:hover{transform: translateY(-10px);box-shadow: 0 5px 5px #ccc;cursor: pointer;transition: all 0.5s linear;}
 #self-recommend>div>.main2>div.main2_4,#self-recommend>div>.main2>div.main2_8,#self-recommend>div>.main2>div.main2_12,#self-recommend>div>.main2>div.main2_16,#self-recommend>div>.main2>div.main2_20,#self-recommend>div>.main2>div.main2_24,#self-recommend>div>.main2>div.main2_28,#self-recommend>div>.main2>div.main2_32,#self-recommend>div>.main2>div.main2_36,#self-recommend>div>.main2>div.main2_40,#self-recommend>div>.main2>div.main2_44,#self-recommend>div>.main2>div.main2_48,#self-recommend>div>.main2>div.main2_52,#self-recommend>div>.main2>div.main2_56,#self-recommend>div>.main2>div.main2_60,#self-recommend>div>.main2>div.main2_64,#self-recommend>div>.main2>div.main2_68,#self-recommend>div>.main2>div.main2_72,#self-recommend>div>.main2>div.main2_76,#self-recommend>div>.main2>div.main2_80{margin-right: 0;}
 #self-recommend>div>.main2>div>div:first-of-type{height: 236px;text-align: center;/* background: greenyellow;*/}
 #self-recommend>div>.main2>div>div:first-of-type>img{width: 150px;height: 150px;margin-top: 10px;}
@@ -242,29 +260,29 @@
 #aside>div{position:relative;}
 #aside>div>div>.setPadding{left:0 !important;transform: translateX(-100%);}
 #aside>.div1:hover>div>.setPadding{width: 235px;height: 252px;position: absolute;right: 80px;top: 0;padding-right: 10px; /*background: yellow;*/}
-#aside>div>div>.setPadding>.box{width: 228px;height: 252px;text-align: center;padding: 16px 18px 0 18px;box-sizing: border-box;cursor: pointer;display: none; background: pink;}
+#aside>div>div>.setPadding>.box{width: 228px;height: 252px;text-align: center;padding: 16px 18px 0 18px;box-sizing: border-box;cursor: pointer;display: none; background: #fff;border: 1px solid #ccc;}
 #aside>.div1>div>.setPadding>.box>p{color: #333333;font-size: 12px;line-height: 16px;margin-bottom: 15px;}
 #aside>.div1>div>.setPadding>.box>h2{font-size: 15px;color: #845f3f;margin-bottom: 8px;}
 #aside>.div1>div>.setPadding>.box>span{color: #666666;display: inline-block;margin-bottom: 10px;}
 #aside>.div1:hover>div>.setPadding>.box{display: block;}
 
 #aside>.div2:hover>div>.setPadding{width: 135px;height: 160px;position: absolute;right: 0px;top: 0;padding-right: 10px; /*background: yellow;*/}
-#aside>.div2>div>.setPadding>.box{width: 128px;height: 160px;border: 1px solid #dfdfdf;  padding: 6px 16px 0 16px;background: deepskyblue;/*display: block;*/}
+#aside>.div2>div>.setPadding>.box{width: 128px;height: 160px;border: 1px solid #dfdfdf;  padding: 6px 16px 0 16px;/*background: deepskyblue;*//*display: block;*/}
 #aside>.div2>div>.setPadding>.box>img{width: 96px;height: 96px;}
 #aside>.div2>div>.setPadding>.box>p{color: #333333;line-height: 16px;}
 #aside>.div2:hover>div>.setPadding>.box{display: block;}
 
 #aside>.div3:hover>div>.setPadding{width: 217px;height: 287px;position: absolute;right: 0px;top: 0;padding-right: 10px; /*background: yellow;*/}
-#aside>.div3>div>.setPadding>.box{width: 210px;height: 287px;border: 1px solid #dfdfdf;  padding: 10px 10px 0 10px;background: deepskyblue;/*display: block;*/}
+#aside>.div3>div>.setPadding>.box{width: 210px;height: 287px;border: 1px solid #dfdfdf;  padding: 10px 10px 0 10px;/*background: deepskyblue;*//*display: block;*/}
 #aside>.div3>div>.setPadding>.box>img{float: left;}
 #aside>.div3>div>.setPadding>.box>img:first-of-type{width: 190px;height: 152px;}
 #aside>.div3>div>.setPadding>.box>img:last-of-type{width: 104px;height: 104px;border: 1px solid #dfdfdf;margin-left: 42px;margin-top: 17px;}
 #aside>.div3:hover>div>.setPadding>.box{display: block;}
 
 #aside>.div4>div>.setPadding{width: 215px;height: 200px;position: absolute;right: 90px;top: 0px;padding-right: 10px; /*background: yellow;*/}
-#aside>.div4>div>.setPadding>.box{width: 208px;height: 200px;border: 1px solid #dfdfdf;  background: deepskyblue;display: none;}
+#aside>.div4>div>.setPadding>.box{width: 208px;height: 200px;border: 1px solid #dfdfdf; /* background: deepskyblue;*/display: none;}
 #aside>.div4>div>.setPadding>.box>img{width: 114px;height: 114px;padding: 13px 47px 0 25px;}
 #aside>.div4>div>.setPadding>.box>p{width: 180px; text-align: left; color: #333333;line-height: 16px;margin-top: 5px;}
 #aside>.div4:hover>div>.setPadding>.box{display: block;}
-#aside .setPadding:after{content:"";display:block;clear: both;;}
+#aside .setPadding:after{content:"";display:block;clear: both;}
 
