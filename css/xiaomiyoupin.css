@@ -122,7 +122,7 @@
 #zhongchou>div>.sec3>.div2>p,#zhongchou>div>.sec4>.div2>p{color: #9999a5;font-size: 14px;float: left;margin: 8px 3px 0 21px;}
 #zhongchou>div>.sec3>.div2>p>span,#zhongchou>div>.sec4>.div2>p>span{color: #a92112;display: inline-block;margin-right: 7px;font-weight: bold;}
 #zhongchou>div>.sec3>.div2>span,#zhongchou>div>.sec4>.div2>span{float: left; width: 25px;height: 18px;background: #fecf00;font-size: 13px;color: #fff;text-align: center;margin-top: 8px;}
-#zhongchou>div>.sec3>.div2>em,#zhongchou>div>.sec4>.div2>em{float: right;color: #a92112;font-size: 14px;margin: 8px 16px 0 0;}
+#zhongchou>div>.sec3>.div2>em,#zhongchou>div>.sec4>.div2>em{float: right;color: #a92112;font-size: 14px;margin: 8px 16px 0 0;font-weight: bold;}
 #zhongchou>div>.sec4>.div1{margin-right: 0;}
 
 /*限时购*/

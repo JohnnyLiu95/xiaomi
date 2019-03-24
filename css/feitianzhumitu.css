@@ -2,7 +2,8 @@
 .padTop{padding-top: 0.1px;}
 body{background: #f5f5f5;}
 body.service{background: #fff;}
-.link>div{margin-top: -130px;}
+.link>div{margin-top: -7px;}
+#searchBar{background: #fff;}
 
 /*首页导航*/
 #top{height: 40px;background: #f5f5f5;}
