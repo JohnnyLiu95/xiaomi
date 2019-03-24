@@ -72,6 +72,7 @@ header>div>ol>li:last-of-type>.toBarShopCart{display:none;line-height:60px;box-s
 /* 页脚 */
 footer{background:#fafafa;}
 footer>div{width:1226px;margin:0 auto;}
+footer>div:after{content:"";clear:both;display: block;}
 footer>div>a{float:left;margin:15px 10px 0 0;  width: 55px;height: 55px;overflow: hidden;background: #ff6700 url(../image/header&footer/mi-logo.png) 3px 4px no-repeat;}
 footer>div>div{float:left;margin-top:15px;}
 footer>div>div>ul{height:12px;}
