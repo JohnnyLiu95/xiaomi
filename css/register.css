@@ -192,3 +192,4 @@ footer>section:nth-of-type(2){
     vertical-align: middle;   
 }
 .none{display: none;}
+.list>.record:hover{background:#ccc;cursor:pointer;}
