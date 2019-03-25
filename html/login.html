@@ -5,7 +5,21 @@
         <meta name="author" content="order by dede58.com"/>
 		<title>会员登录</title>
 		<link rel="stylesheet" type="text/css" href="../css/login.css">
-		
+		<style>
+			.login{background: #fff;}
+			.login>form>span{color: #ff0000;}
+			.login>form>span.right{color: green;}
+			.login>a.active{color: #f56600;}
+			
+			form{position: relative;}
+			#addon{width: 400px;height: 400px;background: #fff;position: absolute;top:200px;right: 110px;display: none;}
+			#addon>dl>dt{text-align: center;padding: 100px 0 0 0;}
+			#addon>dl>dt>img{margin-left: 20px;}
+			#addon>dl{text-align: center;}
+			#addon>dl>dd:nth-of-type(1){font-size: 18px;line-height: 30px;}
+			#addon>dl>dd:nth-of-type(2){font-size: 16px;line-height: 28px;}	
+			#addon>dl>dd:nth-of-type(1)>span{color: #FF6700;}		
+		</style>
 	</head>
 	<body>
 		<!-- login -->
@@ -15,11 +29,11 @@
 			</div>
 		</div>
 		
-		<form  method="post" action="./login.php" class="form center">
+		<form  method="post" action="./login.php" class="form center" id="myForm">
 			<div class="login">
-			    <a href="#" class="choose left">账号登录</a>
+			    <a href="#" class="choose left active">账号登录</a>
 			    <span style="color: #e0e0e0">|</span>
-			    <a href="#" class="choose right">扫码登录</a>
+			    <a href="#" class="choose right ">扫码登录</a>
 			    <form>
 			        <input type="text" placeholder="邮箱/手机号/小米账号" id="login-text">
 			        <input type="password" placeholder="密码" id="login-pwd">
@@ -45,11 +59,23 @@
 			</div>
 			</div>
 		</div>
+		
+		
+		<div id="addon">
+			<dl>
+				<dt><img src="../image/login/erweima.png" /></dt>
+				<dd>使用<span>小米商城APP</span>扫一扫</dd>
+				<dd>小米手机可打开「设置」>「小米帐号」扫码登录</dd>
+			</dl>
+		</div>
 		</form>
+		
 		<footer>
 			<div class="copyright">简体 | 繁体 | English | 常见问题</div>
 			<div class="copyright">小米公司版权所有-京ICP备10046444-<img src="../image/login/ghs.png" alt="">京公网安备11010802020134号-京ICP证110507号</div>
 
 		</footer>
 	</body>
+	<script src="../js/jquery-1.12.4.js"></script>
+	<script src="../js/logo.js"></script>
 </html>
