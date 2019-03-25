@@ -120,18 +120,18 @@ fieldset {
 }
  
 .qq {
-    background: url("../image/QQ.png") -4px -7px no-repeat;
+    background: url("../image/login/QQ.png") -4px -7px no-repeat;
  }
 .weibo {
-    background: url("../image/weibo.png");
+    background: url("../image/login/weibo.png");
 }
  
 .pay {
-    background: url("../image/zhifubao.png");
+    background: url("../image/login/zhifubao.png");
 }
  
 .wechat {
-    background: url("../image/weixin.png");
+    background: url("../image/login/weixin.png");
 }
  
 .qq:hover,
