@@ -1,5 +1,5 @@
 .common{
-	width: 1366px;
+	width: 1310px;
 	margin: 0 auto;
 }
 i{
@@ -357,6 +357,7 @@ i{
 	line-height: 40px;
 	margin-left: 764px;
 	margin-top: 40px;
+	opacity: 0;
 }
 #appearance{
 	height: 1080px;
@@ -433,7 +434,7 @@ i{
 	margin-top: 9px;
 }
 #memory>.left{
-	width: 677px;
+	width: 655px;
 	height: 274px;
 	background: #f5f5f5;
 	float: left;
@@ -455,7 +456,7 @@ i{
 	opacity: 0;
 }
 #memory>.right{
-	width: 677px;
+	width: 655px;
 	height: 274px;
 	background: #f5f5f5;
 	float: right;
@@ -916,7 +917,7 @@ i{
 }
 #sale>img{
 	height: 246px;
-	width: 1366px;
+	width: 1310px;
 }
 #statement{
 	height: 214px;
