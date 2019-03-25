@@ -569,7 +569,7 @@ p{
 	display: none;
 	position: absolute;
 }
-#mitu-mini-13>a{
+#mitu-mini-13>span{
 	width: 75px;
 	height: 75px;
 	border-radius: 50%;
@@ -578,21 +578,32 @@ p{
 	display: inline-block;
 	text-align: center;
 	color: #626854;
-	vertical-align: middle;
+	text-align: center;
 	font-size: 30px;
+	line-height: 70px;
+	margin-top: 280px;
+	margin-left: 100px;
+	cursor: pointer;
 }
-#mitu-mini-13>a:hover{
+#mitu-mini-13>span:hover{
 	opacity: 0.7;
 }
-#mitu-mini-13>a>span{
+#mitu-mini-13>em{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background: #000;
+	opacity: 0.5;
 	display: inline-block;
-	margin-top: 14px;
+	text-align: center;
+	color: #626854;
+	text-align: center;
+	font-size: 30px;
+	line-height: 70px;
+	margin-top: 280px;
+	margin-left: 950px;
+	cursor: pointer;
 }
-#mitu-mini-13>a:first-of-type{
-	margin-top: 286px;
-	margin-left: 64px;
-}
-#mitu-mini-13>a:last-of-type{
-	margin-top: 286px;
-	margin-left: 1028px;
+#mitu-mini-13>em:hover{
+	opacity: 0.7;
 }
