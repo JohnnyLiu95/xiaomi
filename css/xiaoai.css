@@ -13,7 +13,7 @@ nav.navbar-default .navbar-brand img { width: 34px; vertical-align: middle; disp
 nav.navbar-default .navbar-brand span { font-size: 20px; color: #fff; margin-left: 11px; }
 
 #carousel-example-generic { margin-top: 50px; }
-#carousel-example-generic img { max-height: 500px; height: auto; cursor: pointer; }
+#carousel-example-generic img { width: 100%; max-height: 600px; height: auto; cursor: pointer; }
 
 #AI { background: #fff; padding: 80px 20px; margin: 0 auto; }
 #AI h1 { font-size: 32px; color: #000; text-align: center; line-height: 24px; margin-bottom: 40px; }
@@ -75,7 +75,7 @@ nav.navbar-default .navbar-brand span { font-size: 20px; color: #fff; margin-lef
 .link > div > a:hover { background: #ff6700; color: #fff; transition: all 0.25s linear; }
 
 /* 页脚 */
-footer { height: 79px; background: #fafafa; }
+footer {background: #fafafa; }
 footer > div { width: 1226px; margin: 0 auto; }
 footer > div > a { float: left; margin: 15px 10px 0 0; width: 55px; height: 55px; overflow: hidden; background: #ff6700 url(../image/header&footer/mi-logo.png) 3px 4px no-repeat; }
 footer > div > div { float: left; margin-top: 15px; }

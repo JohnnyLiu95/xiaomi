@@ -37,7 +37,7 @@
             "title":"红米Note7",
             "price":999,
             "hot":"新品",
-            "href":"#"
+            "href":"redminote7.html"
         },{
             "imageSrc":"image/header&footer/searchBar8.png",
             "title":"红米6",
@@ -102,7 +102,7 @@
             "imageSrc":"image/header&footer/searchBar19.png",
             "title":"小米笔记本Air 12.5",
             "price":3599,
-            "href":"#"
+            "href":"miAir.html"
         },{
             "imageSrc":"image/header&footer/searchBar20.png",
             "title":"小米笔记本 Air 13.3",
@@ -128,7 +128,7 @@
             "imageSrc":"image/header&footer/searchBar24.png",
             "title":"小米平板",
             "price":1099,
-            "href":"#"
+            "href":"mipad.html"
         },{
             "imageSrc":"image/header&footer/searchBar25.png",
             "title":"米家互联网洗烘一体机",
@@ -1078,7 +1078,7 @@
         "author":" 秘密 ",
         "title":"米兔智能故事机",
         "price":199,
-        "href":"#"
+        "href":"html/mitu-mini.html"
     },{
         "imgSrc":"image/index/hotComment3.png",
         "des":"包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接...",
@@ -1829,7 +1829,7 @@
             "author":"桔子柚苏",
             "hot":"",
             "new":"",
-            "href":"#"
+            "href":"html/mitu-mini.html"
         },{
             "imgSrc":"image/index/smart43.png",
             "title":"米家骑记电助力折叠自行车",
@@ -2747,7 +2747,7 @@
             "author":"沉默⚡不是金",
             "hot":"",
             "new":"",
-            "href":"#"
+            "href":"html/feitianzhumitu.html"
         },{
             "imgSrc":"image/index/around15.png",
             "title":"保温杯",

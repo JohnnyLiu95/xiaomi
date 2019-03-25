@@ -22,8 +22,8 @@ $(document).ready(function () {
         $("#searchBar .container>.box>ul").html("");
         for (var searchBarNavItem of searchBarNav) {
             var li = $("<li></li>");
-            li.append(`<div class="figure"><a href="${searchBarNavItem['href']}"><img src="${searchBarNavItem['imageSrc']}" alt=""></a></div>
-                            <div class="title"><a href="${searchBarNavItem['href']}">${searchBarNavItem['title']}</a></div>
+            li.append(`<div class="figure"><a href="html/${searchBarNavItem['href']}"><img src="${searchBarNavItem['imageSrc']}" alt=""></a></div>
+                            <div class="title"><a href="html/${searchBarNavItem['href']}">${searchBarNavItem['title']}</a></div>
                                 <div class="price">${searchBarNavItem['price']}元起</div>`);
             if (searchBarNavItem['hot']) {
                 li.append(`<div class="hot">${searchBarNavItem['hot']}</div>`);
@@ -35,7 +35,7 @@ $(document).ready(function () {
         $("#searchBar>.box>form>.proList").html("");
         for (var proListItem of proList) {
             var li = $("<li></li>");
-            li.html(`  <a href="${proListItem['href']}">
+            li.html(`  <a href="html/${proListItem['href']}">
                 <span class="protitle">${proListItem['proTitle']}</span>
                 <span class="proNum">约有${proListItem['proNum']}件</span>
                 </a>`);
